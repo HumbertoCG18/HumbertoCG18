@@ -1,7 +1,7 @@
 <h1 align="center">Hi 👋, I'm Humberto Corrêa Gomes</h1>
 <h3 align="center">Independent Game Programmer</h3>
 
-![](https://c.tenor.com/vXg8ADbBpDYAAAAd/peepo-peepo-wave.gif)
+![](https://c.tenor.com/vXg8ADbBpDYAAAAd/peepo-peepo-wave.gif) width:400px;
 
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=humbertocg18&label=Profile%20views&color=0e75b6&style=flat" alt="humbertocg18" /> </p>
 
