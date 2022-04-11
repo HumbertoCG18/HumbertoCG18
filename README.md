@@ -1,5 +1,5 @@
 <h1 align="center">Hi 👋, I'm Humberto Corrêa Gomes</h1>
-<h3 align="center">Independent Game Programmer</h3>
+<h3 align="center">Independent Game DEV/Programmer</h3>
 
 
 - 🔭 I’m currently working on ["The War Of Knolowge" Game, my First Game](https://humbertocg.notion.site/Ideias-Roteiro-d97182ceaa594bcb849f2a570c6d4896)
