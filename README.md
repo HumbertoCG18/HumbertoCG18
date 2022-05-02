@@ -10,7 +10,7 @@
 
 - 👨‍💻 All of my projects are available at [https://github.com/HumbertoCG18](https://github.com/HumbertoCG18)
 
-- 💬 Ask me about **HTML, CSS, PHP, SQL**
+- 💬 Ask me about **HTML, CSS, PHP, SQL.**
 
 - 📫 How to reach me **humberto.cgomes17@gmail.com**
 
