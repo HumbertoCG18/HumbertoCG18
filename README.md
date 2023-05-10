@@ -2,7 +2,7 @@
 <h3 align="center">Independent Game DEV/Programmer, FULL Stack and Mobile Programmer</h3>
 
 
-- 🔭 I’m currently working on ["The War Of Knolowge" Game, my First Game](https://humbertocg.notion.site/Ideias-Roteiro-d97182ceaa594bcb849f2a570c6d4896)
+- 🔭 I’m currently working on ["The War Of Knolowge" Game](https://humbertocg.notion.site/Ideias-Roteiro-d97182ceaa594bcb849f2a570c6d4896) , my first game
 
 - 🌱 I’m currently learning **C#, C++ and Unity.**
 
