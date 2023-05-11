@@ -1,14 +1,14 @@
 <h1 align="center">Hi 👋, I'm Humberto Corrêa Gomes</h1>
-<h3 align="center">Independent Game DEV/Programmer, FULL Stack and Mobile Programmer</h3>
+<h3 align="center">Independent Game DEV/Programmer, FULL Stack and Mobile Programmer.</h3>
 
 
 - 🔭 I’m currently working on ["The War Of Knolowge" Game](https://humbertocg.notion.site/Ideias-Roteiro-d97182ceaa594bcb849f2a570c6d4896) , my first game.
 
-- 🌱 I’m currently learning **C#, C++ and Unity.**
+- 🌱 I’m currently learning **C#, C, C++ and Unity.**
 
 - 📚 Computer science student at [PUCRS](https://www.pucrs.br)
 
-- 👨‍🎓 Graduated from  [Ensino Técnico Senac](https://github.com/senacrs-emti) (2019-2022)
+- 👨‍🎓 Graduated from  [Ensino Técnico Senac](https://github.com/senacrs-emti) (2019-2022).
 
 - 👨‍💻 All of my projects are available at [https://github.com/HumbertoCG18](https://github.com/HumbertoCG18)
 
