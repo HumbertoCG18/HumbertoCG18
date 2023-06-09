@@ -10,7 +10,7 @@
 
 - 👨‍🎓 Graduated from  [Ensino Técnico Senac](https://github.com/senacrs-emti) (2019-2022).
 
-- 👨‍💻 All of my projects are available [here](https://github.com/HumbertoCG18?tab=repositories).
+- 👨‍💻 All of my projects are available [HERE](https://github.com/HumbertoCG18?tab=repositories).
 
 - 💬 Ask me about **HTML, CSS, PHP, SQL, JAVA.**
 
