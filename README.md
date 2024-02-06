@@ -18,9 +18,6 @@
 <h3 align="left">Connect with me:</h3>
 <p align="left">
 <a href="https://linkedin.com/in/humberto correa gomes" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="humberto correa gomes" height="30" width="40" /></a>
-<a href="https://instagram.com/humberto_correa1" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/instagram.svg" alt="humberto_correa1" height="30" width="40" /></a>
-<a href="mailto:humbertocgdev@gmail.com" alt="Gmail">
-<img src="https://camo.githubusercontent.com/4398ca6b7d2b8ade90afbb1fa5b2310d019159afaf04a58ee93df870c7faaf74/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f2d476d61696c2d4646303030303f7374796c653d666c61742d737175617265266c6162656c436f6c6f723d464630303030266c6f676f3d676d61696c266c6f676f436f6c6f723d7768697465266c696e6b3d73616e64726f6d617274696e73636f73746140676d61696c2e636f6d" data-canonical-src="https://img.shields.io/badge/-Gmail-FF0000?style=flat-square&amp;labelColor=FF0000&amp;logo=gmail&amp;logoColor=white&amp;link=humbertocgdev@gmail.com" style="max-width: 100%;" /></a>	
 </p>
 
 <h3 align="left">Languages and Tools:</h3>
