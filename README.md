@@ -2,15 +2,13 @@
 <h3 align="center">Independent Game DEV/Programmer, FULL Stack and Mobile Programmer.</h3>
 
 
-- 🔭 I’m currently working on ["The War Of Knolowge"](https://humbertocg.notion.site/Ideias-Roteiro-d97182ceaa594bcb849f2a570c6d4896) , my first game.
+- 🔭 I’m currently working on ["The war of knowledge"](https://humbertocg.notion.site/Ideias-Roteiro-d97182ceaa594bcb849f2a570c6d4896).
 
 - 🌱 I’m currently learning **C, C#, C++ and Unity.**
 
-- 📚 Computer science student at [PUCRS](https://www.pucrs.br).
+- 📚 Computer science student at [PUCRS](https://www.pucrs.br/estudenapucrs/cursos/ciencia-da-computacao/).
 
-- 👨‍🎓 Graduated from  [Ensino Técnico Senac](https://github.com/senacrs-emti) (2019-2022).
-
-- 👨‍💻 All of my projects are available [HERE](https://github.com/HumbertoCG18?tab=repositories).
+- 👨‍🎓 Graduated from  [Ensino Técnico Senac](https://github.com/senacrs-emti)(2019-2022).
 
 - ⚙️ My VSCode Settings are available [HERE](https://github.com/HumbertoCG18/HumbertoCG18/blob/main/settings.json).
 
