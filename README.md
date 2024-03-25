@@ -4,7 +4,7 @@
 
 - 🔭 I’m currently working on ["The War Of Knolowge"](https://humbertocg.notion.site/Ideias-Roteiro-d97182ceaa594bcb849f2a570c6d4896) , my first game.
 
-- 🌱 I’m currently learning **C#, C, C++ and Unity.**
+- 🌱 I’m currently learning **C, C#, C++ and Unity.**
 
 - 📚 Computer science student at [PUCRS](https://www.pucrs.br).
 
