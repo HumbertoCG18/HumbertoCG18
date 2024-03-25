@@ -12,8 +12,7 @@
 
 - 👨‍💻 All of my projects are available [HERE](https://github.com/HumbertoCG18?tab=repositories).
 
-- 💬 Ask me about **HTML, CSS, PHP, SQL, JAVA.**
-
+- ⚙️ My VSCode Settings are available [HERE](https://github.com/HumbertoCG18/HumbertoCG18/blob/main/settings.json)
 
 <h3 align="left">Connect with me:</h3>
 <p align="left">
