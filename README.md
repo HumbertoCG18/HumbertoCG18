@@ -1,4 +1,4 @@
-<h1 align="center">Hi 👋, I'm Humberto Corrêa Gomes</h1>
+<h1 align="center">Hi 👋, I'm Humberto Corrêa Gomes</h1> <p align="right"> <img src="https://komarev.com/ghpvc/?username=HumbertoCG18&label=Profile%20views&color=0e75b6&style=flat" alt="HumbertoCG18" /> </p>
 <h3 align="center">Independent Game DEV/Programmer, FULL Stack and Mobile Programmer.</h3>
 
 
