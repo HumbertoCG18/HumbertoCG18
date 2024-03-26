@@ -33,10 +33,6 @@ formulahendry.code-runner;
       "editor.wordWrap": "on",
       "editor.linkedEditing": true,
       "editor.lineHeight": 26,
-      "editor.rulers": [
-        80,
-        120
-      ],
       "editor.parameterHints.enabled": false,
       "editor.acceptSuggestionOnCommitCharacter": false,
       "editor.renderLineHighlight": "gutter",
