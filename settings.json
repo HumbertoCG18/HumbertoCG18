@@ -72,12 +72,15 @@ formulahendry.code-runner;
 
 //File configs
     "files.autoSave": "afterDelay",
-    "files.exclude": {
-    "**/.svn": true,
-    "**/.hg": true,
-    "**/CVS": true,
-    "**/.DS_Store": true
-  },
+          "files.exclude": {
+        "**/.svn": true,
+        "**/.hg": true,
+        "**/CVS": true,
+        "**/.DS_Store": true,
+        "**/.vscode": true,
+        "**/.class": true,
+        "**/.gitattributes": true
+    },
   "files.associations": {
     ".sequelizerc": "javascript",
     ".stylelintrc": "json",
