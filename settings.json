@@ -1,78 +1,90 @@
 {
-//Installed Extensions
-/*
-ms-dotnettools.vscode-dotnet-runtime;
-ms-vscode.cpptools;
-vscjava.vscode-java-debug;
-vscjava.vscode-java-pack;
-miguelsolorio.fluent-icons;
-VisualStudioExptTeam.vscodeintellicode;
-VisualStudioExptTeam.intellicode-api-usage-examples;
-redhat.java;
-pyxel.min-darkest;
-rjyoung.vscode-modern-vhdl-support;
-MS-CEINTL.vscode-language-pack-pt-BR;
-ms-python.vscode-pylance;
-ms-python.python;
-ms-python.debugpy;
-miguelsolorio.symbols;
-vscjava.vscode-java-test
-puorc.awesome-vhdl;
-formulahendry.code-runner;
-*/
+  //Installed Extensions
+  /*
+  ms-dotnettools.vscode-dotnet-runtime;
+  ms-vscode.cpptools;
+  vscjava.vscode-java-debug;
+  vscjava.vscode-java-pack;
+  miguelsolorio.fluent-icons;
+  VisualStudioExptTeam.vscodeintellicode;
+  VisualStudioExptTeam.intellicode-api-usage-examples;
+  redhat.java;
+  pyxel.min-darkest;
+  rjyoung.vscode-modern-vhdl-support;
+  MS-CEINTL.vscode-language-pack-pt-BR;
+  ms-python.vscode-pylance;
+  ms-python.python;
+  ms-python.debugpy;
+  miguelsolorio.symbols;
+  vscjava.vscode-java-test
+  puorc.awesome-vhdl;
+  formulahendry.code-runner;
+  dan-c-underwood.arm;
+  icrawl.discord-vscode;
+  dsznajder.es7-react-js-snippets;
+  flowtype.flow-for-vscode
 
 
-//Editor configs
-      "editor.fontFamily": "JetBrains Mono NL",
-      "editor.fontSize": 13.5,
-      "editor.fontLigatures": true,
-      "editor.fontWeight": "normal",
-      "editor.fastScrollSensitivity": 5,
-      "editor.padding.top": 30,
-      "editor.padding.bottom": 30,
-      "editor.wordWrap": "on",
-      "editor.linkedEditing": true,
-      "editor.lineHeight": 26,
-      "editor.parameterHints.enabled": false,
-      "editor.acceptSuggestionOnCommitCharacter": false,
-      "editor.renderLineHighlight": "gutter",
-      "editor.suggestSelection": "first",
-      "editor.inlineSuggest.enabled": true,
-      "editor.inlineSuggest.showToolbar": "onHover",
-      "editor.tabSize": 4,
-      "editor.codeActionsOnSave": {
-        "source.fixAll.eslint": "explicit",
-        "source.addMissingImports": "explicit"
+  */
+
+  
+  //Editor configs
+        "editor.fontFamily": "JetBrains Mono",
+        "editor.scrollbar.vertical": "hidden",
+        "editor.scrollbar.horizontal": "hidden",
+        "editor.fontSize": 14,
+        "editor.fontLigatures": true,
+        "editor.fontWeight": "normal",
+        "editor.fastScrollSensitivity": 5,
+        "editor.padding.top": 30,
+        "editor.padding.bottom": 30,
+        "editor.wordWrap": "on",
+        "editor.linkedEditing": true,
+        "editor.lineHeight": 1.8,
+        "editor.parameterHints.enabled": false,
+        "editor.acceptSuggestionOnCommitCharacter": false,
+        "editor.renderLineHighlight": "gutter",
+        "editor.suggestSelection": "first",
+        "editor.inlineSuggest.enabled": true,
+        "editor.inlineSuggest.showToolbar": "onHover",
+        "editor.tabSize": 4, 
+        "editor.autoClosingBrackets": "always",
+        "editor.codeActionsOnSave": {
+          "source.fixAll.eslint": "explicit",
+          "source.addMissingImports": "explicit",
+      },
+      "breadcrumbs.enabled": false,
+       
+  //Workbench configs
+       "workbench.colorTheme": "Min Darkest",
+       "workbench.iconTheme": "symbols",
+       "workbench.productIconTheme": "fluent-icons",
+       "workbench.layoutControl.enabled": false,
+       "workbench.editor.enablePreview": false,
+       "workbench.statusBar.visible": true,
+       "workbench.editor.labelFormat": "short",
+       "workbench.editor.empty.hint": "hidden",
+      
+  //Window configs
+       "window.zoomLevel": 0,
+       "window.menuBarVisibility": "compact",
+       "window.titleBarStyle": "custom",
+       "window.commandCenter": false,
+  
+  //Explorer configs
+       "explorer.sortOrder": "foldersNestsFiles",
+       "explorer.compactFolders": false,
+       "explorer.fileNesting.enabled": true,
+       "explorer.fileNesting.patterns": {
+       "package.json": ".eslint*, prettier*, tsconfig*, vite*, pnpm-lock*, bun.lockb, nest*",
+       "tailwind.config.js": "tailwind.config*, postcss.config*",
+       ".env.local": ".env*",
+       ".env": ".env*"
     },
-     
-//Workbench configs
-     "workbench.colorTheme": "Min Darkest",
-     "workbench.iconTheme": "symbols",
-     "workbench.productIconTheme": "fluent-icons",
-     "workbench.layoutControl.enabled": false,
-     "workbench.editor.enablePreview": false,
-     "workbench.statusBar.visible": true,
-     "workbench.editor.empty.hint": "hidden",
-    
-//Window configs
-     "window.menuBarVisibility": "compact",
-     "window.titleBarStyle": "custom",
-     "window.commandCenter": false,
-
-//Explorer configs
-     "explorer.sortOrder": "foldersNestsFiles",
-     "explorer.compactFolders": false,
-     "explorer.fileNesting.enabled": true,
-     "explorer.fileNesting.patterns": {
-     "package.json": ".eslint*, prettier*, tsconfig*, vite*, pnpm-lock*, bun.lockb, nest*",
-     "tailwind.config.js": "tailwind.config*, postcss.config*",
-     ".env.local": ".env*",
-     ".env": ".env*"
-  },
-
-//File configs
-    "files.autoSave": "afterDelay",
-          "files.exclude": {
+  
+  //File configs
+      "files.autoSave": "afterDelay",
+      "files.exclude": {
         "**/.svn": true,
         "**/.hg": true,
         "**/CVS": true,
@@ -81,37 +93,37 @@ formulahendry.code-runner;
         "**/.class": true,
         "**/.gitattributes": true
     },
-  "files.associations": {
-    ".sequelizerc": "javascript",
-    ".stylelintrc": "json",
-    "*.tsx": "typescriptreact",
-    ".env.*": "dotenv",
-    ".prettierrc": "json"
-  },
-
-//Symbols configs
-    "symbols.hidesExplorerArrows": false,
-    "symbols.files.associations": {
-      "*.module.ts": "nest",
-      "*.guard.ts": "typescript",
-      "*.spec.ts": "ts-test",
-      "*.e2e-spec.ts": "ts-test",
-      "vitest.config.e2e.ts": "vite",
-      ".env.example": "gear"
+    "files.associations": {
+      ".sequelizerc": "javascript",
+      ".stylelintrc": "json",
+      "*.tsx": "typescriptreact",
+      ".env.*": "dotenv",
+      ".prettierrc": "json"
     },
-    
-//General configs
-     "update.mode": "start",
-     "update.enableWindowsBackgroundUpdates": true,
-     "update.showReleaseNotes": false,
-     "security.workspace.trust.untrustedFiles": "newWindow",
-     "extensions.ignoreRecommendations": true,
-       
-//Git and github config
-    "git.autofetch": true,
-    "git.confirmSync": false,
-    "git.enableSmartCommit": true,
-    "git.ignoreMissingGitWarning": true,
-    "git.openRepositoryInParentFolders": "never",
-    "explorer.confirmDragAndDrop": false,
-    }
+  
+  //Symbols configs
+      "symbols.hidesExplorerArrows": false,
+      "symbols.files.associations": {
+        "*.module.ts": "nest",
+        "*.guard.ts": "typescript",
+        "*.spec.ts": "ts-test",
+        "*.e2e-spec.ts": "ts-test",
+        "vitest.config.e2e.ts": "vite",
+        ".env.example": "gear"
+      },
+      
+  //General configs
+       "update.mode": "start",
+       "update.enableWindowsBackgroundUpdates": true,
+       "update.showReleaseNotes": false,
+       "security.workspace.trust.untrustedFiles": "newWindow",
+       "extensions.ignoreRecommendations": true,
+         
+  //Git and github config
+      "git.autofetch": true,
+      "git.confirmSync": false,
+      "git.enableSmartCommit": true,
+      "git.ignoreMissingGitWarning": true,
+      "git.openRepositoryInParentFolders": "never",
+      "explorer.confirmDragAndDrop": false,
+      }
