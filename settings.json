@@ -61,7 +61,7 @@
        "workbench.productIconTheme": "fluent-icons",
        "workbench.layoutControl.enabled": false,
        "workbench.editor.enablePreview": false,
-       "workbench.statusBar.visible": true,
+       "workbench.statusBar.visible": false,
        "workbench.editor.labelFormat": "short",
        "workbench.editor.empty.hint": "hidden",
       
