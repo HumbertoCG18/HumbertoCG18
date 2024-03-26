@@ -28,6 +28,7 @@
 
   
   //Editor configs
+        "breadcrumbs.enabled": false,
         "editor.fontFamily": "JetBrains Mono",
         "editor.scrollbar.vertical": "hidden",
         "editor.scrollbar.horizontal": "hidden",
@@ -52,7 +53,6 @@
           "source.fixAll.eslint": "explicit",
           "source.addMissingImports": "explicit",
       },
-      "breadcrumbs.enabled": false,
        
   //Workbench configs
        "workbench.colorTheme": "Min Darkest",
