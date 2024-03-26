@@ -1,6 +1,7 @@
 {
-  //Installed Extensions
-  /*
+  //*  
+  Installed Extensions:
+
   ms-dotnettools.vscode-dotnet-runtime;
   ms-vscode.cpptools;
   vscjava.vscode-java-debug;
@@ -23,8 +24,6 @@
   icrawl.discord-vscode;
   dsznajder.es7-react-js-snippets;
   flowtype.flow-for-vscode
-
-
   */
 
   
