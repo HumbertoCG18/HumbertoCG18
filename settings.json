@@ -28,77 +28,87 @@
 
   
   //Editor configs
-        "breadcrumbs.enabled": false,
-        "editor.fontFamily": "JetBrains Mono",
-        "editor.scrollbar.vertical": "hidden",
-        "editor.scrollbar.horizontal": "hidden",
-        "editor.fontSize": 14,
-        "editor.fontLigatures": true,
-        "editor.fontWeight": "normal",
-        "editor.fastScrollSensitivity": 5,
-        "editor.padding.top": 10,
-        "editor.padding.bottom": 20,
-        "editor.wordWrap": "on",
-        "editor.linkedEditing": true,
-        "editor.lineHeight": 2,
-        "editor.parameterHints.enabled": false,
-        "editor.acceptSuggestionOnCommitCharacter": false,
-        "editor.renderLineHighlight": "gutter",
-        "editor.suggestSelection": "first",
-        "editor.inlineSuggest.enabled": true,
-        "editor.inlineSuggest.showToolbar": "onHover",
-        "editor.tabSize": 4, 
-        "editor.autoClosingBrackets": "always",
-        "editor.codeActionsOnSave": {
+      "breadcrumbs.enabled": false,
+      "editor.fontFamily": "JetBrains Mono",
+      "editor.scrollbar.vertical": "hidden",
+      "editor.scrollbar.horizontal": "hidden",
+      "editor.fontSize": 14,
+      "editor.fontLigatures": true,
+      "editor.fontWeight": "normal",
+      "editor.fastScrollSensitivity": 5,
+      "editor.padding.top": 10,
+      "editor.padding.bottom": 20,
+      "editor.wordWrap": "on",
+      "editor.linkedEditing": true,
+      "editor.lineHeight": 2,
+      "editor.parameterHints.enabled": false,
+      "editor.acceptSuggestionOnCommitCharacter": false,
+      "editor.renderLineHighlight": "gutter",
+      "editor.suggestSelection": "first",
+      "editor.inlineSuggest.enabled": true,
+      "editor.inlineSuggest.showToolbar": "onHover",
+      "editor.tabSize": 4,
+      "editor.formatOnType": true,
+      "editor.wrappingIndent": "indent",
+      "editor.dragAndDrop": true,
+      "editor.tabCompletion": "on",
+      "editor.autoClosingQuotes": "always",
+      "editor.autoClosingBrackets": "always",
+      "editor.codeActionsOnSave": {
           "source.fixAll.eslint": "explicit",
           "source.addMissingImports": "explicit",
       },
        
   //Workbench configs
-       "workbench.colorTheme": "Min Darkest",
-       "workbench.iconTheme": "symbols",
-       "workbench.productIconTheme": "fluent-icons",
-       "workbench.layoutControl.enabled": false,
-       "workbench.editor.enablePreview": false,
-       "workbench.statusBar.visible": false,
-       "workbench.editor.labelFormat": "short",
-       "workbench.editor.empty.hint": "hidden",
+      "workbench.colorTheme": "Min Darkest",
+      "workbench.iconTheme": "symbols",
+      "workbench.productIconTheme": "fluent-icons",
+      "workbench.layoutControl.enabled": false,
+      "workbench.editor.enablePreview": false,
+      "workbench.statusBar.visible": false,
+      "workbench.editor.labelFormat": "short",
+      "workbench.editor.empty.hint": "hidden",
+      "workbench.startupEditor": "none",
+      "workbench.editor.showTabs": "multiple",
       
   //Window configs
-       "window.zoomLevel": 0,
-       "window.titleBarStyle": "custom",
-       "window.commandCenter": false,
+      "window.zoomLevel": 0,
+      "window.titleBarStyle": "custom",
+      "window.commandCenter": false,
+      "window.titleSeparator": " — ",
   
   //Explorer configs
-       "explorer.sortOrder": "foldersNestsFiles",
-       "explorer.compactFolders": false,
-       "explorer.fileNesting.enabled": true,
-       "explorer.fileNesting.patterns": {
-       "package.json": ".eslint*, prettier*, tsconfig*, vite*, pnpm-lock*, bun.lockb, nest*",
-       "tailwind.config.js": "tailwind.config*, postcss.config*",
-       ".env.local": ".env*",
-       ".env": ".env*"
+      "explorer.sortOrder": "foldersNestsFiles",
+      "explorer.compactFolders": false,
+      "explorer.fileNesting.enabled": true,
+      "explorer.fileNesting.patterns": {
+          "package.json": ".eslint*, prettier*, tsconfig*, vite*, pnpm-lock*, bun.lockb, nest*",
+          "tailwind.config.js": "tailwind.config*, postcss.config*",
+          ".env.local": ".env*",
+          ".env": ".env*"
     },
   
   //File configs
       "files.autoSave": "afterDelay",
       "files.exclude": {
-        "**/.svn": true,
-        "**/.hg": true,
-        "**/CVS": true,
-        "**/.DS_Store": true,
-        "**/.vscode": true,
-        "**/**.class": true,
-        "**/**.do": true,
-        "**/.gitattributes": true
+          "**/.svn": true,
+          "**/.hg": true,
+          "**/CVS": true,
+          "**/.DS_Store": true,
+          "**/.vscode": true,
+          "**/**.class": true,
+          "**/**.do": true,
+          "**/.gitattributes": true,
+          "**/**.conf": true,
+          "**/**.sln":true,
+          "**/**.csproj":true
     },
-    "files.associations": {
-      ".sequelizerc": "javascript",
-      ".stylelintrc": "json",
-      "*.tsx": "typescriptreact",
-      ".env.*": "dotenv",
-      ".prettierrc": "json"
-    
+      "files.associations": {
+          ".sequelizerc": "javascript",
+          ".stylelintrc": "json",
+          "*.tsx": "typescriptreact",
+          ".env.*": "dotenv",
+          ".prettierrc": "json",
     },
   
   //Symbols configs
@@ -115,19 +125,41 @@
         "*.txt": "text",
         "*.asm": "brackets-green"
       },
+      "symbols.folders.associations": {
+        "Settings": "folder-config",
+        "settings": "folder-config",
+        "Prefabs": "folder-prisma",
+        "prefabs": "folder-prisma"
+      },
       
   //General configs
-       "update.mode": "start",
-       "update.enableWindowsBackgroundUpdates": true,
-       "update.showReleaseNotes": false,
-       "security.workspace.trust.untrustedFiles": "newWindow",
-       "extensions.ignoreRecommendations": true,
+      "update.mode": "start",
+      "update.enableWindowsBackgroundUpdates": true,
+      "update.showReleaseNotes": false,
+      "security.workspace.trust.untrustedFiles": "newWindow",
          
   //Git and github config
+      "git.enabled": true,
+      "git.openRepositoryInParentFolders": "never",
       "git.autofetch": true,
-      "git.confirmSync": false,
+      "git.autorefresh": true,
+      "git.confirmSync": true,
       "git.enableSmartCommit": true,
       "git.ignoreMissingGitWarning": true,
-      "git.openRepositoryInParentFolders": "never",
       "explorer.confirmDragAndDrop": false,
-      }
+
+  // Java Settings
+      "java.autobuild.enabled": true,
+      "java.showBuildStatusOnStart.enabled": true,
+      "java.errors.incompleteClasspath.severity": "ignore",
+      "java.server.launchMode": "Standard",
+      "java.configuration.updateBuildConfiguration": "automatic",
+      "java.help.firstView": "gettingStarted",
+      "java.debug.settings.hotCodeReplace": "auto",
+  
+  //Extensions config
+      "extensions.autoCheckUpdates": true,
+      "extensions.autoUpdate": true,
+      "extensions.ignoreRecommendations": true,
+      "extensions.closeExtensionDetailsOnViewChange": true,
+}
