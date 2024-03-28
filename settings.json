@@ -2,21 +2,25 @@
   /*  
   Installed Extensions:
 
+  !! REQUIRED:
+  !! pyxel.min-darkest;
+  !! miguelsolorio.fluent-icons;
+  !! miguelsolorio.symbols;
+  !! JetBrains Mono Font
+
+
   ms-dotnettools.vscode-dotnet-runtime;
   ms-vscode.cpptools;
   vscjava.vscode-java-debug;
   vscjava.vscode-java-pack;
-  miguelsolorio.fluent-icons;
   VisualStudioExptTeam.vscodeintellicode;
   VisualStudioExptTeam.intellicode-api-usage-examples;
   redhat.java;
-  pyxel.min-darkest;
   rjyoung.vscode-modern-vhdl-support;
   MS-CEINTL.vscode-language-pack-pt-BR;
   ms-python.vscode-pylance;
   ms-python.python;
   ms-python.debugpy;
-  miguelsolorio.symbols;
   vscjava.vscode-java-test
   puorc.awesome-vhdl;
   formulahendry.code-runner;
@@ -101,7 +105,9 @@
           "**/.gitattributes": true,
           "**/**.conf": true,
           "**/**.sln":true,
-          "**/**.csproj":true
+          "**/**.csproj":true,
+          "**/**.rar":true,
+          "**/**.pdf":true
     },
       "files.associations": {
           ".sequelizerc": "javascript",
@@ -124,13 +130,13 @@
         "*.do": "brackets-blue",
         "*.txt": "text",
         "*.asm": "brackets-green"
-      },
+    },
       "symbols.folders.associations": {
         "Settings": "folder-config",
         "settings": "folder-config",
         "Prefabs": "folder-prisma",
         "prefabs": "folder-prisma"
-      },
+    },
       
   //General configs
       "update.mode": "start",
