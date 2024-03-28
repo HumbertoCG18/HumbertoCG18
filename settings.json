@@ -6,7 +6,7 @@
   * 1 - In your vscode editor, press CTRL + P
   * 2 - Type " settings.json " or " >settings.json"
   * 3 - Enter
-  * 4 - Copy and Paste, and, change whatever you like.
+  * 4 - Copy and Paste all  this file, you can remove the comments if you want, and change whatever you like.
 
   !! REQUIRED:
   !! pyxel.min-darkest;
