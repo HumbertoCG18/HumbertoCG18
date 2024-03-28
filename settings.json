@@ -4,7 +4,7 @@
 
   ? How to Open settings.json
   * 1 - In your vscode editor, press CTRL + P
-  * 2 - Type " settings.json "
+  * 2 - Type " settings.json " or " >settings.json"
   * 3 - Enter
 
   !! REQUIRED:
