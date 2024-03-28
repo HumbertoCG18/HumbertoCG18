@@ -2,6 +2,11 @@
   /*  
   Installed Extensions:
 
+  ? How to Open settings.json
+  * 1 - In your vscode editor, press CTRL + P
+  * 2 - Type " settings.json "
+  * 3 - Enter
+
   !! REQUIRED:
   !! pyxel.min-darkest;
   !! miguelsolorio.fluent-icons;
@@ -27,7 +32,8 @@
   dan-c-underwood.arm;
   icrawl.discord-vscode;
   dsznajder.es7-react-js-snippets;
-  flowtype.flow-for-vscode
+  flowtype.flow-for-vscode;
+  esbenp.prettier-vscode;
   */
 
   
@@ -107,7 +113,10 @@
           "**/**.sln":true,
           "**/**.csproj":true,
           "**/**.rar":true,
-          "**/**.pdf":true
+          "**/**.pdf":true,
+          "**/**.zip":true,
+          "**/**.astah":true,
+          "**/**.asta":true
     },
       "files.associations": {
           ".sequelizerc": "javascript",
