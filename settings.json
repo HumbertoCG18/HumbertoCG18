@@ -4,7 +4,7 @@
   
     ? How to Open settings.json
     * 1 - In your vscode editor, press CTRL + P
-    * 2 - Type " settings.json " or " >settings.json"
+    * 2 - Type "settings.json " or ">settings.json"
     * 3 - Enter
     * 4 - Copy and Paste all  this file, you can remove the comments if you want, and change whatever you like.
   
@@ -76,7 +76,7 @@
         "workbench.productIconTheme": "fluent-icons",
         "workbench.layoutControl.enabled": false,
         "workbench.editor.enablePreview": false,
-        "workbench.statusBar.visible": false,
+        "workbench.statusBar.visible": true,
         "workbench.editor.labelFormat": "short",
         "workbench.editor.empty.hint": "hidden",
         "workbench.startupEditor": "none",
@@ -88,6 +88,12 @@
         "window.commandCenter": false,
         "window.titleSeparator": " — ",
     
+    //Zen Mode configs
+        "zenMode.centerLayout": false,
+        "zenMode.hideLineNumbers": false,
+        "zenMode.hideStatusBar": true,
+        "zenMode.silentNotifications": true,
+
     //Explorer configs
         "explorer.sortOrder": "foldersNestsFiles",
         "explorer.compactFolders": false,
@@ -118,7 +124,8 @@
             "**/**.zip":true,
             "**/**.astah":true,
             "**/**.asta":true,
-            "**/**.swp":true
+            "**/**.swp":true,
+            "**/Makefile":true
       },
         "files.associations": {
             ".sequelizerc": "javascript",
@@ -165,6 +172,13 @@
         "git.ignoreMissingGitWarning": true,
         "explorer.confirmDragAndDrop": false,
   
+    //Extensions config
+        "extensions.autoCheckUpdates": true,
+        "extensions.autoUpdate": true,
+        "extensions.ignoreRecommendations": true,
+        "extensions.closeExtensionDetailsOnViewChange": true,
+
+    // !! If you dant have java, just delete this part
     // Java Settings
         "java.autobuild.enabled": true,
         "java.showBuildStatusOnStart.enabled": true,
@@ -173,10 +187,4 @@
         "java.configuration.updateBuildConfiguration": "automatic",
         "java.help.firstView": "gettingStarted",
         "java.debug.settings.hotCodeReplace": "auto",
-    
-    //Extensions config
-        "extensions.autoCheckUpdates": true,
-        "extensions.autoUpdate": true,
-        "extensions.ignoreRecommendations": true,
-        "extensions.closeExtensionDetailsOnViewChange": true,
   }
