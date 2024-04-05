@@ -125,7 +125,10 @@
           "**/**.astah":true,
           "**/**.asta":true,
           "**/**.swp":true,
-          "**/Makefile":true
+          "**/Makefile":true,
+          "**/**.ini":true,
+          "**/**.bak":true,
+          "**/**.wlf":true
     },
       "files.associations": {
           ".sequelizerc": "javascript",
@@ -133,6 +136,7 @@
           "*.tsx": "typescriptreact",
           ".env.*": "dotenv",
           ".prettierrc": "json",
+          "*.asta": "database"
     },
   
   //Symbols configs
@@ -157,7 +161,10 @@
         "C++": "folder-sky-code",
         "Python": "folder-yellow-code",
         "OG_Java": "folder-red-code",
-        "C": "folder-blue-code"
+        "C": "folder-blue-code",
+        "work": "folder-core",
+        "Material De Apoio": "folder-helpers",
+        "Exemplos": "folder-helpers"
       },
     
   //Better Comments Settings
