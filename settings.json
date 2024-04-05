@@ -164,7 +164,9 @@
         "C": "folder-blue-code",
         "work": "folder-core",
         "Material De Apoio": "folder-helpers",
-        "Exemplos": "folder-helpers"
+        "Exemplos": "folder-helpers",
+        "backup": "folder-database",
+        ".cert": "folder-auth"
       },
     
   //Better Comments Settings
