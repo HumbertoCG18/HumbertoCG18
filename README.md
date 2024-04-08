@@ -10,7 +10,10 @@
 
 - 👨‍🎓 Graduated from  [Ensino Técnico Senac](https://github.com/senacrs-emti)(2019-2022).
 
-- ⚙️ My VSCode Settings are available [HERE](https://github.com/HumbertoCG18/HumbertoCG18/blob/main/settings.json).
+- ⚙️ [My VSCode Settings](https://github.com/HumbertoCG18/HumbertoCG18/blob/main/settings.json).
+
+- 📒 [My Notion Template (PT-BR)](https://humbertocg.notion.site/Modelo-Faculdade-977cbd4c8e2b453bb70edb25f85c8c24).
+
 
 <h3 align="left">Connect with me:</h3>
 <p align="left">
