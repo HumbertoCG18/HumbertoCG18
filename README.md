@@ -3,6 +3,11 @@
   <img src="https://github-readme-stats.vercel.app/api/top-langs?username=HumbertoCG18&locale=en&hide_title=false&layout=compact&card_width=320&langs_count=5&theme=dark&hide_border=false&order=2" height="150" alt="languages graph"  />
 </div>
 
+###
+
+<img src="https://raw.githubusercontent.com/HumbertoCG18/HumbertoCG18/output/snake.svg" alt="Snake animation" />
+
+###
 <h1 align="center">Hi 👋, I'm Humberto Corrêa Gomes <img src="https://komarev.com/ghpvc/?username=HumbertoCG18&label=Profile%20views&color=0e75b6&style=flat" alt="HumbertoCG18" /> </h1> 
 <h3 align="center">Independent Game DEV/Programmer, FULL Stack and Mobile Programmer.</h3>
 
