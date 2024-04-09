@@ -15,6 +15,7 @@
   !! JetBrains Mono Font
 
 
+  vscjava.vscode-java-dependency
   ms-dotnettools.vscode-dotnet-runtime;
   ms-vscode.cpptools;
   vscjava.vscode-java-debug;
