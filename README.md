@@ -20,7 +20,7 @@
 - <a href ="https://humbertocg.notion.site/Modelo-Faculdade-977cbd4c8e2b453bb70edb25f85c8c24"> ![Notion](https://img.shields.io/badge/Notion-%23000000.svg?style=for-the-badge&logo=notion&logoColor=white) </a>
 
 
-<b align="left">Connect with me: </b>
+## <b align="left">Connect with me: </b>
 <a href = "mailto:humbertocgdev@gmail.com"><img src="https://img.shields.io/badge/-Gmail-%23333?style=for-the-badge&logo=gmail&logoColor=white" target="_blank"></a>
 <a href ="https://www.linkedin.com/in/humberto-corr%C3%AAa-gomes-509755182/?trk=public_profile_browsemap&originalSubdomain=br"> ![LinkedIn](https://img.shields.io/badge/linkedin-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white) </a>
 
