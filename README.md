@@ -13,7 +13,7 @@
 
 - 📚 Computer science student at [PUCRS](https://www.pucrs.br/estudenapucrs/cursos/ciencia-da-computacao/).
 
-- 👨‍🎓 Graduated from  [Ensino Técnico Senac](https://github.com/senacrs-emti)(2019-2022).
+- 👨‍🎓 Graduated from  [Ensino Técnico Senac](https://github.com/senacrs-emti) (2019-2022).
 
 - <a href ="https://github.com/HumbertoCG18/HumbertoCG18/blob/main/settings.json"> ![Visual Studio Code](https://img.shields.io/badge/Visual%20Studio%20Code-0078d7.svg?style=for-the-badge&logo=visual-studio-code&logoColor=white) </a>
 
