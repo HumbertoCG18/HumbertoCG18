@@ -3,7 +3,7 @@
   <img src="https://github-readme-stats.vercel.app/api/top-langs?username=HumbertoCG18&locale=en&hide_title=false&layout=compact&card_width=320&langs_count=6&theme=dark&hide_border=false&order=2" height="150" alt="languages graph"  />
 </div>
 
-<h1 align="center">Hi 👋, I'm Humberto Corrêa Gomes <img align="right" src="https://profile-counter.glitch.me/HumbertoCG18/count.svg?"  /></h1> 
+<h1 align="center">Hi 👋, I'm Humberto Corrêa Gomes <img align="right" src="https://profile-counter.glitch.me/HumbertoCG18/count.svg?" /></h1> 
 <h3 align="center">Independent Game DEV/Programmer, FULL Stack and Mobile Programmer.</h3>
 
 
@@ -18,8 +18,6 @@
 - <a href ="https://github.com/HumbertoCG18/HumbertoCG18/blob/main/settings.json"> ![Visual Studio Code](https://img.shields.io/badge/Visual%20Studio%20Code-0078d7.svg?style=for-the-badge&logo=visual-studio-code&logoColor=white) </a>
 
 - <a href ="https://humbertocg.notion.site/Modelo-Faculdade-977cbd4c8e2b453bb70edb25f85c8c24"> ![Notion](https://img.shields.io/badge/Notion-%23000000.svg?style=for-the-badge&logo=notion&logoColor=white) </a>
-
-## ![Obsidian](https://img.shields.io/badge/Obsidian-%23483699.svg?style=for-the-badge&logo=obsidian&logoColor=white)
 
 
 <b align="left">Connect with me: </b>
