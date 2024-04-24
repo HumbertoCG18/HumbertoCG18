@@ -3,7 +3,7 @@
   <img src="https://github-readme-stats.vercel.app/api/top-langs?username=HumbertoCG18&locale=en&hide_title=false&layout=compact&card_width=320&langs_count=6&theme=dark&hide_border=false&order=2" height="150" alt="languages graph"  />
 </div>
 
-<h1 align="center">Hi 👋, I'm Humberto Corrêa Gomes <img align="right" src="https://profile-counter.glitch.me/HumbertoCG18/count.svg?"/> <img align="left" src="https://img.shields.io/badge/Windows-0078D6?style=for-the-badge&logo=windows&logoColor=white"/> <img src="https://img.shields.io/badge/Debian-D70A53?style=for-the-badge&logo=debian&logoColor=white"/>  </h1> 
+<h1 align="center">Hi 👋, I'm Humberto Corrêa Gomes <img align="right" src="https://profile-counter.glitch.me/HumbertoCG18/count.svg?"/> <img align="left" src="https://img.shields.io/badge/Windows-0078D6?style=for-the-badge&logo=windows&logoColor=white"/> <img align="center" src="https://img.shields.io/badge/Debian-D70A53?style=for-the-badge&logo=debian&logoColor=white"/>  </h1> 
 <h3 align="center">Independent Game DEV/Programmer, FULL Stack and Mobile Programmer.</h3>
 
 
