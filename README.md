@@ -3,7 +3,7 @@
   <img src="https://github-readme-stats.vercel.app/api/top-langs?username=HumbertoCG18&locale=en&hide_title=false&layout=compact&card_width=320&langs_count=6&theme=dark&hide_border=false&order=2" height="150" alt="languages graph"  />
 </div>
 
-<h1 align="center">Hi 👋, I'm Humberto Corrêa Gomes <img align="right" src="https://profile-counter.glitch.me/HumbertoCG18/count.svg?"/> <img align="left" src="https://img.shields.io/badge/Windows-0078D6?style=for-the-badge&logo=windows&logoColor=white"/> <img align="left" src="https://img.shields.io/badge/Debian-D70A53?style=for-the-badge&logo=debian&logoColor=white"/> </h1> 
+<h1 align="center">Hi 👋, I'm Humberto Corrêa Gomes <img align="right" src="https://profile-counter.glitch.me/HumbertoCG18/count.svg?"/></h1> 
 <h3 align="center">Independent Game DEV/Programmer, FULL Stack and Mobile Programmer.</h3>
 
 
@@ -23,6 +23,12 @@
 <b align="left">Connect with me: </b>
 <a href = "mailto:humbertocgdev@gmail.com"><img src="https://img.shields.io/badge/-Gmail-%23333?style=for-the-badge&logo=gmail&logoColor=white" target="_blank"></a>
 <a href ="https://www.linkedin.com/in/humberto-corr%C3%AAa-gomes-509755182/?trk=public_profile_browsemap&originalSubdomain=br"> ![LinkedIn](https://img.shields.io/badge/linkedin-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white) </a>
+
+## <b align="left">OS:</b>
+![Debian](https://img.shields.io/badge/Debian-D70A53?style=for-the-badge&logo=debian&logoColor=white)
+![Windows](https://img.shields.io/badge/Windows-0078D6?style=for-the-badge&logo=windows&logoColor=white)
+![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
+
 
 ## <img src="https://media2.giphy.com/media/QssGEmpkyEOhBCb7e1/giphy.gif?cid=ecf05e47a0n3gi1bfqntqmob8g9aid1oyj2wr3ds3mg700bl&rid=giphy.gif" width ="25">  <b align="left">Languages and Tools:</b>
 ![MongoDB](https://img.shields.io/badge/MongoDB-%234ea94b.svg?style=for-the-badge&logo=mongodb&logoColor=white)
