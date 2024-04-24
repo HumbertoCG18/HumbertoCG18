@@ -24,10 +24,7 @@
 <h3 align="left">Connect with me:</h3>
 <p align="left">
 <a href = "mailto:humbertocgdev@gmail.com"><img src="https://img.shields.io/badge/-Gmail-%23333?style=for-the-badge&logo=gmail&logoColor=white" target="_blank"></a>
-
-<a href ="https://github.com/HumbertoCG18/HumbertoCG18/blob/main/settings.json"> ![LinkedIn](https://img.shields.io/badge/linkedin-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white) </a>
-
-<a href="https://linkedin.com/in/humberto correa gomes"> ![LinkedIn](https://img.shields.io/badge/linkedin-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white) </a>
+<a href ="https://www.linkedin.com/in/humberto-corr%C3%AAa-gomes-509755182/?trk=public_profile_browsemap&originalSubdomain=br"> ![LinkedIn](https://img.shields.io/badge/linkedin-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white) </a>
 </p>
 
 ## <img src="https://media2.giphy.com/media/QssGEmpkyEOhBCb7e1/giphy.gif?cid=ecf05e47a0n3gi1bfqntqmob8g9aid1oyj2wr3ds3mg700bl&rid=giphy.gif" width ="25">  <b align="left">Languages and Tools:</b>
