@@ -13,7 +13,7 @@
   !! miguelsolorio.fluent-icons;
   !! miguelsolorio.symbols;
   !! JetBrains Mono Font
-
+  !! Apc Customize UI++
 
   vscjava.vscode-java-dependency
   ms-dotnettools.vscode-dotnet-runtime;
@@ -70,6 +70,7 @@
           "source.fixAll.eslint": "explicit",
           "source.addMissingImports": "explicit",
       },
+      
        
   //Workbench configs
       "workbench.colorTheme": "Min Darkest",
@@ -82,12 +83,11 @@
       "workbench.editor.empty.hint": "hidden",
       "workbench.startupEditor": "none",
       "workbench.editor.showTabs": "multiple",
-      
-  //Window configs
       "window.zoomLevel": 0,
       "window.titleBarStyle": "custom",
       "window.commandCenter": false,
       "window.titleSeparator": " — ",
+      
   
   //Zen Mode configs
       "zenMode.centerLayout": false,
@@ -115,7 +115,6 @@
           "**/.DS_Store": true,
           "**/.vscode": true,
           "**/**.class": true,
-          "**/**.do": true,
           "**/.gitattributes": true,
           "**/**.conf": true,
           "**/**.sln":true,
@@ -139,7 +138,25 @@
           ".prettierrc": "json",
           "*.asta": "database"
     },
-  
+    
+  //APC configs
+      "apc.electron": {
+        "titleBarStyle": "hiddenInset"
+      },
+      "apc.header": {
+        "height": 36
+      },
+      "apc.listRow": {
+        "height": 24
+      },
+      "apc.font.family": "Fira Code",
+      "apc.stylesheet": {
+        ".title-label > h2": "display: none",
+        ".split-view-view:first-child .pane-header": "display: none !important;",
+        ".monaco-workbench .monaco-list:not(.element-focused):focus:before": "display: none;"
+      },
+
+
   //Symbols configs
       "symbols.hidesExplorerArrows": false,
       "symbols.files.associations": {
@@ -259,4 +276,5 @@
       "java.configuration.updateBuildConfiguration": "automatic",
       "java.help.firstView": "gettingStarted",
       "java.debug.settings.hotCodeReplace": "auto",
+      "redhat.telemetry.enabled": true,
 }
