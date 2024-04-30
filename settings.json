@@ -87,6 +87,7 @@
       "window.titleBarStyle": "custom",
       "window.commandCenter": false,
       "window.titleSeparator": " — ",
+      "window.menuBarVisibility": "compact",
       
   
   //Zen Mode configs
@@ -282,5 +283,4 @@
       "java.help.firstView": "gettingStarted",
       "java.debug.settings.hotCodeReplace": "auto",
       "redhat.telemetry.enabled": true,
-      "window.menuBarVisibility": "compact",
 }
