@@ -83,10 +83,14 @@
       "workbench.editor.empty.hint": "hidden",
       "workbench.startupEditor": "none",
       "workbench.editor.showTabs": "multiple",
+
+
+  //Window configs
       "window.zoomLevel": 0,
       "window.titleBarStyle": "custom",
       "window.commandCenter": false,
       "window.titleSeparator": " — ",
+      
       
   
   //Zen Mode configs
@@ -141,7 +145,12 @@
     
   //APC configs
       "apc.electron": {
-        "titleBarStyle": "hiddenInset"
+        "titleBarStyle": "hiddenInset",
+        "trafficLightPosition": {
+          "x": 11,
+          "y": 10
+        },
+        "frame": false
       },
       "apc.header": {
         "height": 36
@@ -153,8 +162,13 @@
       "apc.stylesheet": {
         ".title-label > h2": "display: none",
         ".split-view-view:first-child .pane-header": "display: none !important;",
-        ".monaco-workbench .monaco-list:not(.element-focused):focus:before": "display: none;"
+        ".monaco-workbench .monaco-list:not(.element-focused):focus:before": "display: none;",
+        ".monaco-list-row": "border-radius: 4px;",
+        ".pane-body": "padding: 8px",
+        ".pane-header": "padding: 0 8px",
+        ".nosidebar .inline-tabs-placeholder": "width: 75px",
       },
+      
 
 
   //Symbols configs
