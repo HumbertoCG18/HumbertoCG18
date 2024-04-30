@@ -87,7 +87,6 @@
       "window.titleBarStyle": "custom",
       "window.commandCenter": false,
       "window.titleSeparator": " — ",
-      "window.menuBarVisibility": "compact",
       
   
   //Zen Mode configs
@@ -143,10 +142,6 @@
   //APC configs
       "apc.electron": {
         "titleBarStyle": "hiddenInset"
-      },
-      "trafficLightPosition": {
-        "x": 11,
-        "y": 10
       },
       "apc.header": {
         "height": 36
@@ -283,4 +278,8 @@
       "java.help.firstView": "gettingStarted",
       "java.debug.settings.hotCodeReplace": "auto",
       "redhat.telemetry.enabled": true,
+  // JSON Settings
+      "[jsonc]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+      },
 }
