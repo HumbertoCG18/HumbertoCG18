@@ -143,13 +143,17 @@
       "apc.electron": {
         "titleBarStyle": "hiddenInset"
       },
+      "trafficLightPosition": {
+        "x": 11,
+        "y": 10
+      },
       "apc.header": {
         "height": 36
       },
       "apc.listRow": {
         "height": 24
       },
-      "apc.font.family": "Fira Code",
+      "apc.font.family": "Consolas",
       "apc.stylesheet": {
         ".title-label > h2": "display: none",
         ".split-view-view:first-child .pane-header": "display: none !important;",
@@ -178,6 +182,7 @@
         "prefabs": "folder-prisma",
         "C++": "folder-sky-code",
         "Python": "folder-yellow-code",
+        "Py": "folder-yellow-code",
         "OG_Java": "folder-red-code",
         "C": "folder-blue-code",
         "work": "folder-core",
@@ -277,4 +282,5 @@
       "java.help.firstView": "gettingStarted",
       "java.debug.settings.hotCodeReplace": "auto",
       "redhat.telemetry.enabled": true,
+      "window.menuBarVisibility": "compact",
 }
