@@ -15,7 +15,7 @@
 
 - 👨‍🎓 Graduated from  [Ensino Técnico Senac](https://github.com/senacrs-emti) (2019-2022).
 
-- <a href ="https://github.com/HumbertoCG18/HumbertoCG18/blob/main/settings.json"> ![Visual Studio Code](https://img.shields.io/badge/Visual%20Studio%20Code-0078d7.svg?style=for-the-badge&logo=visual-studio-code&logoColor=white) </a>
+- <a href ="https://github.com/HumbertoCG18/HumbertoCG18/blob/main/VS_Code/settings.json"> ![Visual Studio Code](https://img.shields.io/badge/Visual%20Studio%20Code-0078d7.svg?style=for-the-badge&logo=visual-studio-code&logoColor=white) </a>
 
 - <a href ="https://humbertocg.notion.site/Modelo-Faculdade-977cbd4c8e2b453bb70edb25f85c8c24"> ![Notion](https://img.shields.io/badge/Notion-%23000000.svg?style=for-the-badge&logo=notion&logoColor=white) </a>
 
