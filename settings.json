@@ -1,299 +1,295 @@
 {
-  /*  
-  Installed Extensions:
-
-  ? How to Open settings.json
-  * 1 - In your vscode editor, press CTRL + P
-  * 2 - Type "settings.json " or ">settings.json"
-  * 3 - Enter
-  * 4 - Copy and Paste all  this file, you can remove the comments if you want, and change whatever you like.
-
-  !! REQUIRED:
-  !! pyxel.min-darkest;
-  !! miguelsolorio.fluent-icons;
-  !! miguelsolorio.symbols;
-  !! JetBrains Mono Font
-  !! Apc Customize UI++
-
-  vscjava.vscode-java-dependency
-  ms-dotnettools.vscode-dotnet-runtime;
-  ms-vscode.cpptools;
-  vscjava.vscode-java-debug;
-  vscjava.vscode-java-pack;
-  VisualStudioExptTeam.vscodeintellicode;
-  VisualStudioExptTeam.intellicode-api-usage-examples;
-  redhat.java;
-  rjyoung.vscode-modern-vhdl-support;
-  MS-CEINTL.vscode-language-pack-pt-BR;
-  ms-python.vscode-pylance;
-  ms-python.python;
-  ms-python.debugpy;
-  vscjava.vscode-java-test
-  puorc.awesome-vhdl;
-  formulahendry.code-runner;
-  dan-c-underwood.arm;
-  icrawl.discord-vscode;
-  dsznajder.es7-react-js-snippets;
-  flowtype.flow-for-vscode;
-  esbenp.prettier-vscode;
-  */
-
+    /*  
+    Installed Extensions:
   
-  //Editor configs
-      "breadcrumbs.enabled": false,
-      "editor.fontFamily": "JetBrains Mono",
-      "editor.scrollbar.vertical": "hidden",
-      "editor.scrollbar.horizontal": "hidden",
-      "editor.fontSize": 14,
-      "editor.fontLigatures": true,
-      "editor.fontWeight": "normal",
-      "editor.fastScrollSensitivity": 5,
-      "editor.padding.top": 10,
-      "editor.padding.bottom": 20,
-      "editor.wordWrap": "on",
-      "editor.linkedEditing": true,
-      "editor.lineHeight": 2,
-      "editor.parameterHints.enabled": false,
-      "editor.acceptSuggestionOnCommitCharacter": false,
-      "editor.renderLineHighlight": "gutter",
-      "editor.suggestSelection": "first",
-      "editor.inlineSuggest.enabled": true,
-      "editor.inlineSuggest.showToolbar": "onHover",
-      "editor.tabSize": 4,
-      "editor.formatOnType": true,
-      "editor.wrappingIndent": "indent",
-      "editor.dragAndDrop": true,
-      "editor.tabCompletion": "on",
-      "editor.autoClosingQuotes": "always",
-      "editor.autoClosingBrackets": "always",
-      "editor.codeActionsOnSave": {
-          "source.fixAll.eslint": "explicit",
-          "source.addMissingImports": "explicit",
-      },
-      
-       
-  //Workbench configs
-      "workbench.colorTheme": "Min Darkest",
-      "workbench.iconTheme": "symbols",
-      "workbench.productIconTheme": "fluent-icons",
-      "workbench.layoutControl.enabled": false,
-      "workbench.editor.enablePreview": false,
-      "workbench.statusBar.visible": true,
-      "workbench.editor.labelFormat": "short",
-      "workbench.editor.empty.hint": "hidden",
-      "workbench.startupEditor": "none",
-      "workbench.editor.showTabs": "multiple",
-
-
-  //Window configs
-      "window.zoomLevel": 0,
-      "window.titleBarStyle": "custom",
-      "window.commandCenter": false,
-      "window.titleSeparator": " — ",
-      
-      
+    ? How to Open settings.json
+    * 1 - In your vscode editor, press CTRL + P
+    * 2 - Type "settings.json " or ">settings.json"
+    * 3 - Enter
+    * 4 - Copy and Paste all  this file, you can remove the comments if you want, and change whatever you like.
   
-  //Zen Mode configs
-      "zenMode.centerLayout": false,
-      "zenMode.hideLineNumbers": false,
-      "zenMode.hideStatusBar": true,
-      "zenMode.silentNotifications": true,
-
-  //Explorer configs
-      "explorer.sortOrder": "foldersNestsFiles",
-      "explorer.compactFolders": false,
-      "explorer.fileNesting.enabled": true,
-      "explorer.fileNesting.patterns": {
-          "package.json": ".eslint*, prettier*, tsconfig*, vite*, pnpm-lock*, bun.lockb, nest*",
-          "tailwind.config.js": "tailwind.config*, postcss.config*",
-          ".env.local": ".env*",
-          ".env": ".env*"
-    },
+    !! REQUIRED:
+    !! Min Darkest
+    !! Fluent Icons
+    !! Symbols
+    !! Apc Customize UI++
+    !! Fira Code Regular Font
+    !! JetBrains Mono Font
   
-  //File configs
-      "files.autoSave": "afterDelay",
-      "files.exclude": {
-          "**/.svn": true,
-          "**/.hg": true,
-          "**/CVS": true,
-          "**/.DS_Store": true,
-          "**/.vscode": true,
-          "**/**.class": true,
-          "**/.gitattributes": true,
-          "**/**.conf": true,
-          "**/**.sln":true,
-          "**/**.csproj":true,
-          "**/**.rar":true,
-          "**/**.pdf":true,
-          "**/**.zip":true,
-          "**/**.astah":true,
-          "**/**.asta":true,
-          "**/**.swp":true,
-          "**/Makefile":true,
-          "**/**.ini":true,
-          "**/**.bak":true,
-          "**/**.wlf":true
-    },
-      "files.associations": {
-          ".sequelizerc": "javascript",
-          ".stylelintrc": "json",
-          "*.tsx": "typescriptreact",
-          ".env.*": "dotenv",
-          ".prettierrc": "json",
-          "*.asta": "database"
-    },
+    vscjava.vscode-java-dependency
+    ms-dotnettools.vscode-dotnet-runtime;
+    ms-vscode.cpptools;
+    vscjava.vscode-java-debug;
+    vscjava.vscode-java-pack;
+    VisualStudioExptTeam.vscodeintellicode;
+    VisualStudioExptTeam.intellicode-api-usage-examples;
+    redhat.java;
+    rjyoung.vscode-modern-vhdl-support;
+    MS-CEINTL.vscode-language-pack-pt-BR;
+    ms-python.vscode-pylance;
+    ms-python.python;
+    ms-python.debugpy;
+    vscjava.vscode-java-test
+    puorc.awesome-vhdl;
+    formulahendry.code-runner;
+    dan-c-underwood.arm;
+    icrawl.discord-vscode;
+    dsznajder.es7-react-js-snippets;
+    flowtype.flow-for-vscode;
+    esbenp.prettier-vscode;
+    */
+  
     
-  //APC configs
-      "apc.electron": {
-        "titleBarStyle": "hiddenInset",
-        "trafficLightPosition": {
-          "x": 11,
-          "y": 10
+    //Editor configs
+        "breadcrumbs.enabled": false,
+        "editor.fontFamily": "JetBrains Mono",
+        "editor.scrollbar.vertical": "hidden",
+        "editor.scrollbar.horizontal": "hidden",
+        "editor.fontSize": 14,
+        "editor.fontLigatures": true,
+        "editor.fontWeight": "normal",
+        "editor.fastScrollSensitivity": 5,
+        "editor.padding.top": 10,
+        "editor.padding.bottom": 20,
+        "editor.wordWrap": "on",
+        "editor.linkedEditing": true,
+        "editor.lineHeight": 2,
+        "editor.parameterHints.enabled": false,
+        "editor.acceptSuggestionOnCommitCharacter": false,
+        "editor.renderLineHighlight": "gutter",
+        "editor.suggestSelection": "first",
+        "editor.inlineSuggest.enabled": true,
+        "editor.inlineSuggest.showToolbar": "onHover",
+        "editor.tabSize": 4,
+        "editor.formatOnType": true,
+        "editor.wrappingIndent": "indent",
+        "editor.dragAndDrop": true,
+        "editor.tabCompletion": "on",
+        "editor.autoClosingQuotes": "always",
+        "editor.autoClosingBrackets": "always",
+        "editor.codeActionsOnSave": {
+            "source.fixAll.eslint": "explicit",
+            "source.addMissingImports": "explicit",
         },
-        "frame": false
-      },
-      "apc.header": {
-        "height": 36
-      },
-      "apc.listRow": {
-        "height": 24
-      },
-      "apc.font.family": "Consolas",
-      "apc.stylesheet": {
-        ".title-label > h2": "display: none",
-        ".split-view-view:first-child .pane-header": "display: none !important;",
-        ".monaco-workbench .monaco-list:not(.element-focused):focus:before": "display: none;",
-        ".monaco-list-row": "border-radius: 4px;",
-        ".pane-body": "padding: 8px",
-        ".pane-header": "padding: 0 8px",
-        ".nosidebar .inline-tabs-placeholder": "width: 75px",
-      },
-      
-
-
-  //Symbols configs
-      "symbols.hidesExplorerArrows": false,
-      "symbols.files.associations": {
-        "*.module.ts": "nest",
-        "*.guard.ts": "typescript",
-        "*.spec.ts": "ts-test",
-        "*.e2e-spec.ts": "ts-test",
-        "vitest.config.e2e.ts": "vite",
-        ".env.example": "gear",
-        "*.vhd": "v",
-        "*.do": "brackets-blue",
-        "*.txt": "text",
-        "*.asm": "brackets-green"
-      },
-      "symbols.folders.associations": {
-        "Settings": "folder-config",
-        "settings": "folder-config",
-        "Prefabs": "folder-prisma",
-        "prefabs": "folder-prisma",
-        "C++": "folder-sky-code",
-        "Python": "folder-yellow-code",
-        "Py": "folder-yellow-code",
-        "OG_Java": "folder-red-code",
-        "C": "folder-blue-code",
-        "work": "folder-core",
-        "Material De Apoio": "folder-helpers",
-        "Exemplos": "folder-helpers",
-        "backup": "folder-database",
-        ".cert": "folder-auth"
-      },
-    
-  //Better Comments Settings
-      "better-comments.tags": [
-        {
-          "tag": "!",
-          "color": "#FF2D00",
-          "strikethrough": false,
-          "underline": false,
-          "backgroundColor": "transparent",
-          "bold": false,
-          "italic": false
-        },
-        {
-          "tag": "?",
-          "color": "#3498DB",
-          "strikethrough": false,
-          "underline": false,
-          "backgroundColor": "transparent",
-          "bold": false,
-          "italic": false
-        },
-        {
-          "tag": "//",
-          "color": "#474747",
-          "strikethrough": true,
-          "underline": false,
-          "backgroundColor": "transparent",
-          "bold": false,
-          "italic": false
-        },
-        {
-          "tag": "todo",
-          "color": "#FF8C00",
-          "strikethrough": false,
-          "underline": false,
-          "backgroundColor": "transparent",
-          "bold": false,
-          "italic": false
-        },
-        {
-          "tag": "*",
-          "color": "#98C379",
-          "strikethrough": false,
-          "underline": false,
-          "backgroundColor": "transparent",
-          "bold": false,
-          "italic": false
-        },
-        {
-          "tag": "=",
-          "color": "#81f542",
-          "strikethrough": false,
-          "underline": false,
-          "backgroundColor": "transparent",
-          "bold": false,
-          "italic": false
-        }
-    ],
-      
-  //General configs
-      "update.mode": "start",
-      "update.enableWindowsBackgroundUpdates": true,
-      "update.showReleaseNotes": false,
-      "security.workspace.trust.untrustedFiles": "newWindow",
+        
          
-  //Git and github config
-      "git.enabled": true,
-      "git.openRepositoryInParentFolders": "never",
-      "git.autofetch": true,
-      "git.autorefresh": true,
-      "git.confirmSync": true,
-      "git.enableSmartCommit": true,
-      "git.ignoreMissingGitWarning": true,
-      "explorer.confirmDragAndDrop": false,
+    //Workbench configs
+        "workbench.colorTheme": "Min Darkest",
+        "workbench.iconTheme": "symbols",
+        "workbench.productIconTheme": "fluent-icons",
+        "workbench.layoutControl.enabled": false,
+        "workbench.editor.enablePreview": false,
+        "workbench.statusBar.visible": true,
+        "workbench.editor.labelFormat": "short",
+        "workbench.editor.empty.hint": "hidden",
+        "workbench.startupEditor": "none",
+        "workbench.editor.showTabs": "multiple",
 
-  //Extensions config
-      "extensions.autoCheckUpdates": true,
-      "extensions.autoUpdate": true,
-      "extensions.ignoreRecommendations": true,
-      "extensions.closeExtensionDetailsOnViewChange": true,
-
-  // !! If you dant have java, just delete this part
-  // Java Settings
-      "java.autobuild.enabled": true,
-      "java.showBuildStatusOnStart.enabled": true,
-      "java.errors.incompleteClasspath.severity": "ignore",
-      "java.server.launchMode": "Standard",
-      "java.configuration.updateBuildConfiguration": "automatic",
-      "java.help.firstView": "gettingStarted",
-      "java.debug.settings.hotCodeReplace": "auto",
-      "redhat.telemetry.enabled": true,
-  // JSON Settings
-      "[jsonc]": {
-        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    //Window configs
+        "window.zoomLevel": 0,
+        "window.titleBarStyle": "custom",
+        "window.commandCenter": false,
+        "window.titleSeparator": " — ",
+        
+    //Zen Mode configs
+        "zenMode.centerLayout": false,
+        "zenMode.hideLineNumbers": false,
+        "zenMode.hideStatusBar": true,
+        "zenMode.silentNotifications": true,
+  
+    //Explorer configs
+        "explorer.sortOrder": "foldersNestsFiles",
+        "explorer.compactFolders": false,
+        "explorer.fileNesting.enabled": true,
+        "explorer.fileNesting.patterns": {
+            "package.json": ".eslint*, prettier*, tsconfig*, vite*, pnpm-lock*, bun.lockb, nest*",
+            "tailwind.config.js": "tailwind.config*, postcss.config*",
+            ".env.local": ".env*",
+            ".env": ".env*"
       },
-}
+    
+    //File configs
+        "files.autoSave": "afterDelay",
+        "files.exclude": {
+            "**/.svn": true,
+            "**/.hg": true,
+            "**/CVS": true,
+            "**/.DS_Store": true,
+            "**/.vscode": true,
+            "**/**.class": true,
+            "**/.gitattributes": true,
+            "**/**.conf": true,
+            "**/**.sln":true,
+            "**/**.csproj":true,
+            "**/**.rar":true,
+            "**/**.pdf":true,
+            "**/**.zip":true,
+            "**/**.astah":true,
+            "**/**.asta":true,
+            "**/**.swp":true,
+            "**/Makefile":true,
+            "**/**.ini":true,
+            "**/**.bak":true,
+            "**/**.wlf":true
+      },
+        "files.associations": {
+            ".sequelizerc": "javascript",
+            ".stylelintrc": "json",
+            "*.tsx": "typescriptreact",
+            ".env.*": "dotenv",
+            ".prettierrc": "json",
+            "*.asta": "database"
+      },
+      
+    //APC configs
+        "apc.electron": {
+          "titleBarStyle": "hiddenInset",
+          "trafficLightPosition": {
+            "x": 11,
+            "y": 10
+          },
+          "frame": false
+        },
+        "apc.header": {
+          "height": 36
+        },
+        "apc.listRow": {
+          "height": 24
+        },
+        "apc.font.family": "Fira Code Regular",
+        "apc.stylesheet": {
+          ".title-label > h2": "display: none",
+          ".split-view-view:first-child .pane-header": "display: none !important;",
+          ".monaco-workbench .monaco-list:not(.element-focused):focus:before": "display: none;",
+          ".monaco-list-row": "border-radius: 4px;",
+          ".pane-body": "padding: 8px",
+          ".pane-header": "padding: 0 8px",
+          ".nosidebar .inline-tabs-placeholder": "width: 75px",
+        },
+      
+    //Symbols configs
+        "symbols.hidesExplorerArrows": false,
+        "symbols.files.associations": {
+          "*.module.ts": "nest",
+          "*.guard.ts": "typescript",
+          "*.spec.ts": "ts-test",
+          "*.e2e-spec.ts": "ts-test",
+          "vitest.config.e2e.ts": "vite",
+          ".env.example": "gear",
+          "*.vhd": "v",
+          "*.do": "brackets-blue",
+          "*.txt": "text",
+          "*.asm": "brackets-green"
+        },
+        "symbols.folders.associations": {
+          "Settings": "folder-config",
+          "settings": "folder-config",
+          "Prefabs": "folder-prisma",
+          "prefabs": "folder-prisma",
+          "C++": "folder-sky-code",
+          "Python": "folder-yellow-code",
+          "Py": "folder-yellow-code",
+          "OG_Java": "folder-red-code",
+          "C": "folder-blue-code",
+          "work": "folder-core",
+          "Material De Apoio": "folder-helpers",
+          "Exemplos": "folder-helpers",
+          "backup": "folder-database",
+          ".cert": "folder-auth"
+        },
+      
+    //Better Comments Settings
+        "better-comments.tags": [
+          {
+            "tag": "!",
+            "color": "#FF2D00",
+            "strikethrough": false,
+            "underline": false,
+            "backgroundColor": "transparent",
+            "bold": false,
+            "italic": false
+          },
+          {
+            "tag": "?",
+            "color": "#3498DB",
+            "strikethrough": false,
+            "underline": false,
+            "backgroundColor": "transparent",
+            "bold": false,
+            "italic": false
+          },
+          {
+            "tag": "//",
+            "color": "#474747",
+            "strikethrough": true,
+            "underline": false,
+            "backgroundColor": "transparent",
+            "bold": false,
+            "italic": false
+          },
+          {
+            "tag": "todo",
+            "color": "#FF8C00",
+            "strikethrough": false,
+            "underline": false,
+            "backgroundColor": "transparent",
+            "bold": false,
+            "italic": false
+          },
+          {
+            "tag": "*",
+            "color": "#98C379",
+            "strikethrough": false,
+            "underline": false,
+            "backgroundColor": "transparent",
+            "bold": false,
+            "italic": false
+          },
+          {
+            "tag": "=",
+            "color": "#81f542",
+            "strikethrough": false,
+            "underline": false,
+            "backgroundColor": "transparent",
+            "bold": false,
+            "italic": false
+          }
+      ],
+        
+    //General configs
+        "update.mode": "start",
+        "update.enableWindowsBackgroundUpdates": true,
+        "update.showReleaseNotes": false,
+        "security.workspace.trust.untrustedFiles": "newWindow",
+           
+    //Git and github config
+        "git.enabled": true,
+        "git.openRepositoryInParentFolders": "never",
+        "git.autofetch": true,
+        "git.autorefresh": true,
+        "git.confirmSync": true,
+        "git.enableSmartCommit": true,
+        "git.ignoreMissingGitWarning": true,
+        "explorer.confirmDragAndDrop": false,
+  
+    //Extensions config
+        "extensions.autoCheckUpdates": true,
+        "extensions.autoUpdate": true,
+        "extensions.ignoreRecommendations": true,
+        "extensions.closeExtensionDetailsOnViewChange": true,
+  
+    // !! If you dant have java, just delete this part
+    // Java Settings
+        "java.autobuild.enabled": true,
+        "java.showBuildStatusOnStart.enabled": true,
+        "java.errors.incompleteClasspath.severity": "ignore",
+        "java.server.launchMode": "Standard",
+        "java.configuration.updateBuildConfiguration": "automatic",
+        "java.help.firstView": "gettingStarted",
+        "java.debug.settings.hotCodeReplace": "auto",
+        "redhat.telemetry.enabled": true,
+    // JSON Settings
+        "[jsonc]": {
+          "editor.defaultFormatter": "esbenp.prettier-vscode"
+        },
+  }
