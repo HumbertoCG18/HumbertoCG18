@@ -1,12 +1,17 @@
 {
     /*  
-    Installed Extensions:
-  
+
     ? How to Open settings.json
-    * 1 - In your vscode editor, press CTRL + P
-    * 2 - Type "settings.json " or ">settings.json"
-    * 3 - Enter
-    * 4 - Copy and Paste all  this file, you can remove the comments if you want, and change whatever you like.
+     * 1 - In your vscode editor, press CTRL + P
+     * 2 - Type "settings.json " or ">settings.json"
+     * 3 - Enter
+     * 4 - Copy and Paste all  this file, you can remove the comments if you want, and change whatever you like.
+
+    ? How to Install Fonts:
+     * 1 - Download the 2 tff's files
+     * 2 - Double click on those archives, and click install. 
+  
+  Installed Extensions:
   
     !! REQUIRED:
     !! Min Darkest
@@ -16,6 +21,7 @@
     !! Fira Code Regular Font
     !! JetBrains Mono Font
   
+    == Opicional:
     vscjava.vscode-java-dependency
     ms-dotnettools.vscode-dotnet-runtime;
     ms-vscode.cpptools;
@@ -39,7 +45,6 @@
     esbenp.prettier-vscode;
     */
   
-    
     //Editor configs
         "breadcrumbs.enabled": false,
         "editor.fontFamily": "JetBrains Mono",
@@ -72,7 +77,6 @@
             "source.addMissingImports": "explicit",
         },
         
-         
     //Workbench configs
         "workbench.colorTheme": "Min Darkest",
         "workbench.iconTheme": "symbols",
@@ -288,6 +292,7 @@
         "java.help.firstView": "gettingStarted",
         "java.debug.settings.hotCodeReplace": "auto",
         "redhat.telemetry.enabled": true,
+        
     // JSON Settings
         "[jsonc]": {
           "editor.defaultFormatter": "esbenp.prettier-vscode"
