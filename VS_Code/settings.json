@@ -40,6 +40,8 @@
 
   
   //Editor configs
+      "security.workspace.trust.startupPrompt": "never",
+      "security.workspace.trust.banner": "never",
       "breadcrumbs.enabled": false,
       "editor.fontFamily": "JetBrains Mono",
       "editor.scrollbar.vertical": "hidden",
