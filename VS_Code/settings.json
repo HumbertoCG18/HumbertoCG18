@@ -90,7 +90,6 @@
       "workbench.layoutControl.enabled": false,
       "workbench.editor.enablePreview": false,
       "workbench.statusBar.visible": true,
-      "workbench.editor.labelFormat": "short",
       "workbench.editor.empty.hint": "hidden",
       "workbench.startupEditor": "none",
       "workbench.editor.showTabs": "multiple",
@@ -279,7 +278,6 @@
       "update.mode": "start",
       "update.enableWindowsBackgroundUpdates": true,
       "update.showReleaseNotes": false,
-      "security.workspace.trust.untrustedFiles": "newWindow",
          
   //Git and github config
       "git.enabled": true,
