@@ -13,6 +13,8 @@
   !! miguelsolorio.fluent-icons;
   !! miguelsolorio.symbols;
   !! JetBrains Mono Font
+  !! APC-Customized UI++
+  !! Toogle Exclude
 
 
   ms-dotnettools.vscode-dotnet-runtime;
@@ -44,7 +46,15 @@
       "security.workspace.trust.banner": "never",
       "breadcrumbs.enabled": false,
       "editor.fontFamily": "JetBrains Mono",
-      "editor.scrollbar.vertical": "hidden",
+      "terminal.integrated.fontFamily": "JetBrains Mono",
+      "editor.inlayHints.fontFamily":"JetBrains Mono",
+      "markdown.preview.fontFamily":"JetBrains Mono",
+      "chat.editor.fontFamily": "JetBrains Mono",
+      "debug.console.fontFamily": "JetBrains Mono",
+      "editor.codeLensFontFamily": "JetBrains Mono",
+      "notebook.output.fontFamily": "JetBrains Mono",
+      "scm.inputFontFamily": "JetBrains Mono",
+      "editor.minimap.enabled": false,
       "editor.scrollbar.horizontal": "hidden",
       "editor.fontSize": 14,
       "editor.fontLigatures": true,
@@ -115,30 +125,30 @@
   //File configs
       "files.autoSave": "afterDelay",
       "files.exclude": {
-          "**/.svn": true,
-          "**/.hg": true,
-          "**/CVS": true,
-          "**/.DS_Store": true,
-          "**/.vscode": true,
-          "**/**.class": true,
-          "**/**.do": true,
-          "**/**.gitignore": false,
-          "**/**.gitattributes": true,
-          "**/**.md": true,
-          "**/**.conf": true,
-          "**/**.sln":true,
-          "**/**.csproj":true,
-          "**/**.rar":true,
-          "**/**.pdf":true,
-          "**/**.zip":true,
-          "**/**.astah":true,
-          "**/**.asta":true,
-          "**/**.swp":true,
-          "**/Makefile":true,
-          "**/**.ini":true,
-          "**/**.bak":true,
-          "**/**.wlf":true
-    },
+        "**/.svn": true,
+        "**/.hg": true,
+        "**/CVS": true,
+        "**/.DS_Store": true,
+        "**/.vscode": true,
+        "**/**.class": true,
+        "**/**.do": true,
+        "**/**.gitignore": true,
+        "**/**.gitattributes": true,
+        "**/**.md": true,
+        "**/**.conf": true,
+        "**/**.sln": true,
+        "**/**.csproj": true,
+        "**/**.rar": true,
+        "**/**.pdf": true,
+        "**/**.zip": true,
+        "**/**.astah": true,
+        "**/**.asta": true,
+        "**/**.swp": true,
+        "**/Makefile": true,
+        "**/**.ini": true,
+        "**/**.bak": true,
+        "**/**.wlf": true
+      },
       "files.associations": {
           ".sequelizerc": "javascript",
           ".stylelintrc": "json",
@@ -149,7 +159,32 @@
           "*.asta": "database"
     },
   
+  //APC-Settings
+  "apc.stylesheet": {
+    ".sidebar > .composite": "height: 12px !important",
+    ".title-label": "display: none !important",
+    ".title-actions": "display: none !important",
+    ".titlebar-center": "display: none !important",
+    ".inline-tabs-placeholder": "display: none !important",
+  },
+
   //Symbols configs
+  "apc.activityBar": {
+    "position": "bottom",
+    "hideSettings": true,
+    "size": 28
+  },
+  "apc.electron": {
+    "titleBarStyle": "hiddenInset",
+  },
+  "apc.font.family": "JetBrains Mono",
+  "apc.monospace.font.family": "JetBrains Mono",
+  "apc.statusBar": {
+    "position": "editor-bottom",
+    "height": 28,
+    "fontSize": 12
+  },
+  //Symbols-Settings
       "symbols.hidesExplorerArrows": false,
       "symbols.files.associations": {
         "*.module.ts": "nest",
@@ -171,6 +206,7 @@
         "Prefabs": "folder-prisma",
         "prefabs": "folder-prisma",
         "C++": "folder-sky-code",
+        "CPP": "folder-sky-code",
         "Python": "folder-yellow-code",
         "OG_Java": "folder-red-code",
         "C": "folder-blue-code",
@@ -335,4 +371,3 @@
         "gleam": "gleam run -m $fileNameWithoutExt"
       },
 }
-
