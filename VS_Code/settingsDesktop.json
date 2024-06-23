@@ -1,0 +1,377 @@
+{
+  /*  
+  Installed Extensions:
+
+  ? How to Open settings.json
+  * 1 - In your vscode editor, press CTRL + P
+  * 2 - Type "settings.json " or ">settings.json"
+  * 3 - Enter
+  * 4 - Copy and Paste all  this file, you can remove the comments if you want, and change whatever you like.
+
+  !! REQUIRED:
+  !! pyxel.min-darkest;
+  !! miguelsolorio.fluent-icons;
+  !! miguelsolorio.symbols;
+  !! JetBrains Mono Font
+  !! APC-Customized UI++
+  !! Toogle Exclude
+
+
+  ms-dotnettools.vscode-dotnet-runtime;
+  ms-vscode.cpptools;
+  vscjava.vscode-java-debug;
+  vscjava.vscode-java-pack;
+  VisualStudioExptTeam.vscodeintellicode;
+  VisualStudioExptTeam.intellicode-api-usage-examples;
+  redhat.java;
+  rjyoung.vscode-modern-vhdl-support;
+  MS-CEINTL.vscode-language-pack-pt-BR;
+  ms-python.vscode-pylance;
+  ms-python.python;
+  ms-python.debugpy;
+  vscjava.vscode-java-test
+  puorc.awesome-vhdl;
+  formulahendry.code-runner;
+  dan-c-underwood.arm;
+  icrawl.discord-vscode;
+  dsznajder.es7-react-js-snippets;
+  flowtype.flow-for-vscode;
+  esbenp.prettier-vscode;
+  vscjava.vscode-java-dependency
+  */
+
+  
+  //Editor configs
+      "security.workspace.trust.startupPrompt": "never",
+      "security.workspace.trust.banner": "never",
+      "breadcrumbs.enabled": false,
+      "editor.fontFamily": "JetBrains Mono",
+      "terminal.integrated.fontFamily": "JetBrains Mono",
+      "editor.inlayHints.fontFamily":"JetBrains Mono",
+      "markdown.preview.fontFamily":"JetBrains Mono",
+      "chat.editor.fontFamily": "JetBrains Mono",
+      "debug.console.fontFamily": "JetBrains Mono",
+      "editor.codeLensFontFamily": "JetBrains Mono",
+      "notebook.output.fontFamily": "JetBrains Mono",
+      "scm.inputFontFamily": "JetBrains Mono",
+      "editor.minimap.enabled": false,
+      "editor.scrollbar.horizontal": "hidden",
+      "editor.scrollbar.vertical": "hidden",
+      "editor.fontSize": 14,
+      "editor.fontLigatures": true,
+      "editor.fontWeight": "normal",
+      "editor.fastScrollSensitivity": 5,
+      "editor.padding.top": 10,
+      "editor.padding.bottom": 20,
+      "editor.wordWrap": "on",
+      "editor.linkedEditing": true,
+      "editor.lineHeight": 2,
+      "editor.parameterHints.enabled": false,
+      "editor.acceptSuggestionOnCommitCharacter": false,
+      "editor.renderLineHighlight": "gutter",
+      "editor.suggestSelection": "first",
+      "editor.inlineSuggest.enabled": true,
+      "editor.inlineSuggest.showToolbar": "onHover",
+      "editor.tabSize": 4,
+      "editor.formatOnType": true,
+      "editor.wrappingIndent": "indent",
+      "editor.dragAndDrop": true,
+      "editor.tabCompletion": "on",
+      "editor.autoClosingQuotes": "always",
+      "editor.autoClosingBrackets": "always",
+      "editor.codeActionsOnSave": {
+          "source.fixAll.eslint": "explicit",
+          "source.addMissingImports": "explicit",
+      },
+       
+  //Workbench configs
+      "workbench.colorTheme": "Min Darkest",
+      "workbench.iconTheme": "symbols",
+      "workbench.productIconTheme": "fluent-icons",
+      "workbench.layoutControl.enabled": false,
+      "workbench.editor.enablePreview": false,
+      "workbench.statusBar.visible": true,
+      "workbench.editor.empty.hint": "hidden",
+      "workbench.startupEditor": "none",
+      "workbench.editor.showTabs": "multiple",
+      "workbench.editorAssociations": {
+        "*.csv": "gc-excelviewer-csv-editor"
+      },
+      
+  //Window configs
+      "window.zoomLevel": 0,
+      "window.titleBarStyle": "custom",
+      "window.commandCenter": false,
+      "window.titleSeparator": " — ",
+  
+  //Zen Mode configs
+      "zenMode.centerLayout": false,
+      "zenMode.hideLineNumbers": false,
+      "zenMode.hideStatusBar": true,
+      "zenMode.silentNotifications": true,
+
+  //Explorer configs
+      "explorer.sortOrder": "foldersNestsFiles",
+      "explorer.compactFolders": false,
+      "explorer.fileNesting.enabled": true,
+      "explorer.confirmDragAndDrop": false,
+      "explorer.fileNesting.patterns": {
+          "package.json": ".eslint*, prettier*, tsconfig*, vite*, pnpm-lock*, bun.lockb, nest*",
+          "tailwind.config.js": "tailwind.config*, postcss.config*",
+          ".env.local": ".env*",
+          ".env": ".env*"
+    },
+  
+  //File configs
+      "files.autoSave": "afterDelay",
+      "files.exclude": {
+        "**/.svn": true,
+        "**/.hg": true,
+        "**/CVS": true,
+        "**/.DS_Store": true,
+        "**/.vscode": true,
+        "**/**.class": true,
+        "**/**.do": true,
+        "**/**.gitignore": true,
+        "**/**.gitattributes": true,
+        "**/**.md": true,
+        "**/**.conf": true,
+        "**/**.sln": true,
+        "**/**.csproj": true,
+        "**/**.rar": true,
+        "**/**.pdf": true,
+        "**/**.zip": true,
+        "**/**.astah": true,
+        "**/**.asta": true,
+        "**/**.swp": true,
+        "**/Makefile": true,
+        "**/**.ini": true,
+        "**/**.bak": true,
+        "**/**.wlf": true
+      },
+      "files.associations": {
+          ".sequelizerc": "javascript",
+          ".stylelintrc": "json",
+          "*.tsx": "typescriptreact",
+          ".env.*": "dotenv",
+          ".flaskenv": "dotenv",
+          ".prettierrc": "json",
+          "*.asta": "database"
+    },
+  
+  //APC-Settings
+  "apc.stylesheet": {
+    ".sidebar > .composite": "height: 12px !important",
+    ".title-label": "display: none !important",
+    ".title-actions": "display: none !important",
+    ".titlebar-center": "display: none !important",
+    ".inline-tabs-placeholder": "display: none !important",
+  },
+
+  //Symbols configs
+  "apc.activityBar": {
+    "position": "bottom",
+    "hideSettings": true,
+    "size": 28
+  },
+  "apc.electron": {
+    "titleBarStyle": "hiddenInset",
+  },
+  "apc.font.family": "JetBrains Mono",
+  "apc.monospace.font.family": "JetBrains Mono",
+  "apc.statusBar": {
+    "position": "editor-bottom",
+    "height": 28,
+    "fontSize": 12
+  },
+  //Symbols-Settings
+      "symbols.hidesExplorerArrows": false,
+      "symbols.files.associations": {
+        "*.module.ts": "nest",
+        "*.guard.ts": "typescript",
+        "*.spec.ts": "ts-test",
+        "*.e2e-spec.ts": "ts-test",
+        "vitest.config.e2e.ts": "vite",
+        ".env.example": "gear",
+        ".flaskenv": "gear",
+        "*.vhd": "v",
+        "*.do": "brackets-blue",
+        "*.txt": "text",
+        "*.asm": "brackets-green"
+      },
+      "symbols.folders.associations": {
+        "Settings": "folder-config",
+        "settings": "folder-config",
+        "backend": "folder-config",
+        "Prefabs": "folder-prisma",
+        "prefabs": "folder-prisma",
+        "C++": "folder-sky-code",
+        "CPP": "folder-sky-code",
+        "Python": "folder-yellow-code",
+        "OG_Java": "folder-red-code",
+        "C": "folder-blue-code",
+        "work": "folder-core",
+        "Material De Apoio": "folder-helpers",
+        "Exemplos": "folder-helpers",
+        "backup": "folder-database",
+        ".cert": "folder-auth"
+      },
+    
+  //Better Comments Settings
+      "better-comments.tags": [
+        {
+          "tag": "!",
+          "color": "#FF2D00",
+          "strikethrough": false,
+          "underline": false,
+          "backgroundColor": "transparent",
+          "bold": false,
+          "italic": false
+        },
+        {
+          "tag": "?",
+          "color": "#3498DB",
+          "strikethrough": false,
+          "underline": false,
+          "backgroundColor": "transparent",
+          "bold": false,
+          "italic": false
+        },
+        {
+          "tag": "//",
+          "color": "#474747",
+          "strikethrough": true,
+          "underline": false,
+          "backgroundColor": "transparent",
+          "bold": false,
+          "italic": false
+        },
+        {
+          "tag": "todo",
+          "color": "#FF8C00",
+          "strikethrough": false,
+          "underline": false,
+          "backgroundColor": "transparent",
+          "bold": false,
+          "italic": false
+        },
+        {
+          "tag": "*",
+          "color": "#98C379",
+          "strikethrough": false,
+          "underline": false,
+          "backgroundColor": "transparent",
+          "bold": false,
+          "italic": false
+        },
+        {
+          "tag": "=",
+          "color": "#81f542",
+          "strikethrough": false,
+          "underline": false,
+          "backgroundColor": "transparent",
+          "bold": false,
+          "italic": false
+        }
+    ],
+      
+  //General configs
+      "update.mode": "start",
+      "update.enableWindowsBackgroundUpdates": true,
+      "update.showReleaseNotes": false,
+         
+  //Git and github config
+      "git.enabled": true,
+      "git.openRepositoryInParentFolders": "never",
+      "git.autofetch": true,
+      "git.autorefresh": true,
+      "git.confirmSync": true,
+      "git.enableSmartCommit": true,
+      "git.ignoreMissingGitWarning": true,
+
+  //Extensions config
+      "extensions.autoCheckUpdates": true,
+      "extensions.autoUpdate": true,
+      "extensions.ignoreRecommendations": true,
+      "extensions.closeExtensionDetailsOnViewChange": true,
+
+  // !! If you dant have java, just delete this part
+  // Java Settings
+      "java.autobuild.enabled": true,
+      "java.showBuildStatusOnStart.enabled": true,
+      "java.errors.incompleteClasspath.severity": "ignore",
+      "java.server.launchMode": "Standard",
+      "java.configuration.updateBuildConfiguration": "automatic",
+      "java.help.firstView": "gettingStarted",
+      "java.debug.settings.hotCodeReplace": "auto",
+
+  //Code Runner Settings
+      "code-runner.clearPreviousOutput": true,
+      "code-runner.ignoreSelection": true,
+      "code-runner.saveAllFilesBeforeRun": true,
+      "code-runner.fileDirectoryAsCwd": false,
+      "code-runner.executorMap": {
+        "javascript": "node",
+        "java": "cd $dir && javac *.java && java $fileName",
+        "c": "cd $dir && gcc $fileName -o $fileNameWithoutExt && $dir$fileNameWithoutExt",
+        "zig": "zig run",
+        "cpp": "cd $dir && g++ $fileName -o $fileNameWithoutExt && $dir$fileNameWithoutExt",
+        "objective-c": "cd $dir && gcc -framework Cocoa $fileName -o $fileNameWithoutExt && $dir$fileNameWithoutExt",
+        "php": "php",
+        "python": "python -u",
+        "perl": "perl",
+        "perl6": "perl6",
+        "ruby": "ruby",
+        "go": "go run",
+        "lua": "lua",
+        "groovy": "groovy",
+        "powershell": "powershell -ExecutionPolicy ByPass -File",
+        "bat": "cmd /c",
+        "shellscript": "bash",
+        "fsharp": "fsi",
+        "csharp": "scriptcs",
+        "vbscript": "cscript //Nologo",
+        "typescript": "ts-node",
+        "coffeescript": "coffee",
+        "scala": "scala",
+        "swift": "swift",
+        "julia": "julia",
+        "crystal": "crystal",
+        "ocaml": "ocaml",
+        "r": "Rscript",
+        "applescript": "osascript",
+        "clojure": "lein exec",
+        "haxe": "haxe --cwd $dirWithoutTrailingSlash --run $fileNameWithoutExt",
+        "rust": "cd $dir && rustc $fileName && $dir$fileNameWithoutExt",
+        "racket": "racket",
+        "scheme": "csi -script",
+        "ahk": "autohotkey",
+        "autoit": "autoit3",
+        "dart": "dart",
+        "pascal": "cd $dir && fpc $fileName && $dir$fileNameWithoutExt",
+        "d": "cd $dir && dmd $fileName && $dir$fileNameWithoutExt",
+        "haskell": "runghc",
+        "nim": "nim compile --verbosity:0 --hints:off --run",
+        "lisp": "sbcl --script",
+        "kit": "kitc --run",
+        "v": "v run",
+        "sass": "sass --style expanded",
+        "scss": "scss --style expanded",
+        "less": "cd $dir && lessc $fileName $fileNameWithoutExt.css",
+        "FortranFreeForm": "cd $dir && gfortran $fileName -o $fileNameWithoutExt && $dir$fileNameWithoutExt",
+        "fortran-modern": "cd $dir && gfortran $fileName -o $fileNameWithoutExt && $dir$fileNameWithoutExt",
+        "fortran_fixed-form": "cd $dir && gfortran $fileName -o $fileNameWithoutExt && $dir$fileNameWithoutExt",
+        "fortran": "cd $dir && gfortran $fileName -o $fileNameWithoutExt && $dir$fileNameWithoutExt",
+        "sml": "cd $dir && sml $fileName",
+        "mojo": "mojo run",
+        "erlang": "escript",
+        "spwn": "spwn build",
+        "pkl": "cd $dir && pkl eval -f yaml $fileName -o $fileNameWithoutExt.yaml",
+        "gleam": "gleam run -m $fileNameWithoutExt"
+      },
+
+    "animations.Install-Method": "Apc Customize UI++",
+    "apc.imports": [
+    "file:///c:/Users/humbe/.vscode/extensions/brandonkirbyson.vscode-animations-2.0.3/dist/updateHandler.js"
+  ]
+}
