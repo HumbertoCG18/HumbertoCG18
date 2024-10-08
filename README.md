@@ -11,7 +11,7 @@
 
 - 🌱 I’m currently learning **C, C# and Unity.**
 
-- 📚 Computer science student at [PUCRS](https://www.pucrs.br/estudenapucrs/cursos/ciencia-da-computacao/). (2023-2027)
+- 📚 Computer science student at [PUCRS](https://www.pucrs.br/estudenapucrs/cursos/ciencia-da-computacao/) (2023-2027).
 
 - 👨‍🎓 Graduated from  [Ensino Técnico Senac](https://github.com/senacrs-emti) (2019-2022).
 
