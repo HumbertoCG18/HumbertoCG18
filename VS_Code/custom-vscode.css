@@ -35,3 +35,7 @@
 .action-toolbar-container{
     display: none !important;
 }
+
+#be5invis.vscode-custom-css{
+    display: none !important;
+}
