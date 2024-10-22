@@ -13,6 +13,7 @@
     !! miguelsolorio.fluent-icons;
     !! miguelsolorio.symbols;
     !! JetBrains Mono Font
+    !! APC-Customized UI++
     !! Toogle Exclude
   
   
@@ -93,12 +94,15 @@
         "workbench.editor.empty.hint": "hidden",
         "workbench.startupEditor": "none",
         "workbench.editor.showTabs": "multiple",
+        "workbench.activityBar.location": "bottom",
         "workbench.editorAssociations": {
           "*.csv": "gc-excelviewer-csv-editor"
         },
         "window.zoomLevel": 0,
         "window.titleBarStyle": "custom",
         "window.titleSeparator": " — ",
+        "window.commandCenter": false,
+        "window.menuBarVisibility": "compact",
     
     //Zen Mode configs
         "zenMode.centerLayout": false,
@@ -359,7 +363,4 @@
           "pkl": "cd $dir && pkl eval -f yaml $fileName -o $fileNameWithoutExt.yaml",
           "gleam": "gleam run -m $fileNameWithoutExt"
         },
-        "window.commandCenter": false,
-        "workbench.activityBar.location": "bottom",
-  
   }
