@@ -1,0 +1,33 @@
+.composite-bar-container{
+    align-items: center;
+    justify-content: center;
+}
+
+.title-label{
+    display: none !important;
+}
+
+.actions-container{
+    align-items: center !important;
+    justify-content: center !important;
+}
+
+.monaco-dropdown{
+    display: none !important;
+}
+
+.title-action{
+    display: none !important;
+}
+
+.titlebar-center{
+    display: none !important;
+}
+
+.inline-tabs-placeholder{
+    display: none !important;
+}
+
+.windows{
+    font-family: 'JetBrains Mono';
+}
