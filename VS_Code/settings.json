@@ -3,10 +3,12 @@
     Installed Extensions:
   
     ? How to Open settings.json
-    * 1 - In your vscode editor, press CTRL + P
-    * 2 - Type "settings.json " or ">settings.json"
-    * 3 - Enter
-    * 4 - Copy and Paste all  this file, you can remove the comments if you want, and change whatever you like.
+    * 1 - Clone the "HumbertoCG18" repo in the C:// directory
+    * 2 - In your vscode editor, press CTRL + P
+    * 3 - Type "settings.json " or ">settings.json"
+    * 4 - Enter
+    * 5 - Copy and Paste all  this file, you can remove the comments if you want, and change whatever you like.
+    * 6 - Press CTRL + P and type "Reload Custom CSS and JS"
   
     !! REQUIRED:
     !! pyxel.min-darkest;
