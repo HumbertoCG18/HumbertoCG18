@@ -81,7 +81,7 @@
         "editor.autoClosingBrackets": "always",
         "editor.codeActionsOnSave": {
             "source.fixAll.eslint": "explicit",
-            "source.addMissingImports": "explicit",
+            "source.addMissingImports": "explicit"
         },
          
     //Workbench configs
@@ -172,6 +172,7 @@
             "*.asta": "database"
       },
 
+    //Custom CSS
       "vscode_custom_css.imports": [
         "file:///C:/Github/HumbertoCG18/VS_Code/custom-vscode.css"
       ],
@@ -362,5 +363,5 @@
           "spwn": "spwn build",
           "pkl": "cd $dir && pkl eval -f yaml $fileName -o $fileNameWithoutExt.yaml",
           "gleam": "gleam run -m $fileNameWithoutExt"
-        },
+        }
   }

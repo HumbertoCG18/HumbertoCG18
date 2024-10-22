@@ -31,3 +31,7 @@
 .windows{
     font-family: 'JetBrains Mono';
 }
+
+.action-toolbar-container{
+    display: none !important;
+}
