@@ -127,8 +127,9 @@
   //File configs
       "files.autoSave": "afterDelay",
       "files.exclude": {
-        "**/.svn": true,
-        "**/.hg": true,
+        "**/**.out":true,
+        "**/**.svn": true,
+        "**/**.hg": true,
         "**/CVS": true,
         "**/.DS_Store": true,
         "**/.vscode": true,
@@ -327,7 +328,7 @@
       "code-runner.executorMap": {
         "javascript": "node",
         "java": "cd $dir && javac -encoding UTF-8 -d . $fileName && java -cp . src.$fileBasenameNoExtension",
-        "c": "cd $dir && gcc $fileName -o $fileNameWithoutExt && $dir$fileNameWithoutExt",
+        "c": "cd $dir && gcc $fileName -o $fileNameWithoutExt.out && $dir$fileNameWithoutExt.out",
         "zig": "zig run",
         "cpp": "cd $dir && g++ $fileName -o $fileNameWithoutExt && $dir$fileNameWithoutExt",
         "objective-c": "cd $dir && gcc -framework Cocoa $fileName -o $fileNameWithoutExt && $dir$fileNameWithoutExt",
