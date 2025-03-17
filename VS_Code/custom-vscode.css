@@ -3,6 +3,14 @@
     justify-content: center;
 }
 
+.be5invis.vscode-custom-css{
+    display: none !important;
+}
+
+.window-appicon{
+    display: none !important;
+}
+
 .title-label{
     display: none !important;
 }
