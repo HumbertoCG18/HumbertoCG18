@@ -15,31 +15,42 @@
   !! miguelsolorio.fluent-icons;
   !! miguelsolorio.symbols;
   !! JetBrains Mono Font
-  !! APC-Customized UI++
+  !! Custom CSS and JS Loader
+  !! Fix VSCode Checksums Next
   !! Toogle Exclude
 
 
-  ms-dotnettools.vscode-dotnet-runtime;
-  ms-vscode.cpptools;
-  vscjava.vscode-java-debug;
-  vscjava.vscode-java-pack;
-  VisualStudioExptTeam.vscodeintellicode;
-  VisualStudioExptTeam.intellicode-api-usage-examples;
-  redhat.java;
-  rjyoung.vscode-modern-vhdl-support;
-  MS-CEINTL.vscode-language-pack-pt-BR;
-  ms-python.vscode-pylance;
-  ms-python.python;
-  ms-python.debugpy;
-  vscjava.vscode-java-test
-  puorc.awesome-vhdl;
-  formulahendry.code-runner;
-  dan-c-underwood.arm;
-  icrawl.discord-vscode;
-  dsznajder.es7-react-js-snippets;
-  flowtype.flow-for-vscode;
-  esbenp.prettier-vscode;
-  vscjava.vscode-java-dependency
+  .NET Install Tool
+  Better Comments
+  Code Runner
+  Debugger for Java
+  Excel Viewer
+  Flow Language Support
+  gitignore
+  GitLens — Git supercharged
+  IntelliCode
+  IntelliCode API Usage Examples
+  Maven for Java
+  MIPS Assembly Formatter
+  Portuguese (Brazil) Language Pack for Visual Studio Code
+  Prettier - Code formatter
+  Project Manager for Java
+  Pylance
+  Python Debugger
+  Python Environments
+  Spring Boot Dashboard
+  Spring Boot Tools
+  Spring Initializr Java Support
+  WSL
+
+  !!Lenguages Supports:
+  ES7+ React/Redux/React-Native snippets
+  Arm Assembly
+  Java
+  Language Support for Java(TM) by Red Hat
+  MIPS Support
+  Python
+
   */
 
   
@@ -96,7 +107,6 @@
       "workbench.editor.empty.hint": "hidden",
       "workbench.startupEditor": "none",
       "workbench.editor.showTabs": "multiple",
-      "workbench.activityBar.location": "bottom",
       "workbench.editorAssociations": {
         "*.csv": "gc-excelviewer-csv-editor"
       },
@@ -104,7 +114,6 @@
       "window.titleBarStyle": "custom",
       "window.titleSeparator": " — ",
       "window.commandCenter": false,
-      "window.menuBarVisibility": "compact",
   
   //Zen Mode configs
       "zenMode.centerLayout": false,
@@ -127,9 +136,8 @@
   //File configs
       "files.autoSave": "afterDelay",
       "files.exclude": {
-        "**/**.out":true,
-        "**/**.svn": true,
-        "**/**.hg": true,
+        "**/.svn": true,
+        "**/.hg": true,
         "**/CVS": true,
         "**/.DS_Store": true,
         "**/.vscode": true,
@@ -164,18 +172,11 @@
         "**/.plastic": true,
         "**/Prefabs": true,
         "**/Settings": true,
-        "**/**.meta": true,
-        "**/**.vsconfig":true,
-        "**/**.prefab": true,
-        "**/**.mat":true,
-        "**/**.FBX": true,
-        "**/**.unity": true,
-        "**/**.anim": true,
-        "**/**.controller": true,
-        "**/**.asmdef": true,
-        "**/UserSettings": true,
-        "**/ProjectSettings": true,
-        "**/**.gitmodules": true
+        "**/**.mf": true,
+        "**/**.puml": true,
+        "**/bin": true,
+        "**/**.exe": true,
+        "**/.mvn": true
       },
       "files.associations": {
           ".sequelizerc": "javascript",
@@ -216,10 +217,8 @@
         "C++": "folder-sky-code",
         "CPP": "folder-sky-code",
         "Python": "folder-yellow-code",
-        "Java":"folder-red-code",
         "OG_Java": "folder-red-code",
         "C": "folder-blue-code",
-        "gnu":"folder-config",
         "work": "folder-core",
         "Material De Apoio": "folder-helpers",
         "Exemplos": "folder-helpers",
@@ -312,12 +311,6 @@
       "java.errors.incompleteClasspath.severity": "ignore",
       "java.server.launchMode": "Standard",
       "java.configuration.updateBuildConfiguration": "automatic",
-      "java.help.firstView": "gettingStarted",
-      "java.debug.settings.hotCodeReplace": "auto",
-      "java.project.sourcePaths": ["../T1/src"],
-      "files.encoding": "utf8",
-      "java.project.encoding": "setDefault",
-
 
 
   //Code Runner Settings
@@ -327,8 +320,8 @@
       "code-runner.fileDirectoryAsCwd": false,
       "code-runner.executorMap": {
         "javascript": "node",
-        "java": "cd $dir && javac -encoding UTF-8 -d . $fileName && java -cp . src.$fileBasenameNoExtension",
-        "c": "cd $dir && gcc $fileName -o $fileNameWithoutExt.out && $dir$fileNameWithoutExt.out",
+        "java": "cd $dir && javac *.java && java $fileName",
+        "c": "cd $dir && gcc $fileName -o $fileNameWithoutExt && $dir$fileNameWithoutExt",
         "zig": "zig run",
         "cpp": "cd $dir && g++ $fileName -o $fileNameWithoutExt && $dir$fileNameWithoutExt",
         "objective-c": "cd $dir && gcc -framework Cocoa $fileName -o $fileNameWithoutExt && $dir$fileNameWithoutExt",
@@ -383,5 +376,19 @@
         "spwn": "spwn build",
         "pkl": "cd $dir && pkl eval -f yaml $fileName -o $fileNameWithoutExt.yaml",
         "gleam": "gleam run -m $fileNameWithoutExt"
-      }
+      },
+      "redhat.telemetry.enabled": true,
+      "terminal.integrated.defaultProfile.windows": "PowerShell",
+      "security.allowedUNCHosts": [
+        "wsl.localhost"
+      ],
+      
+      "java.configuration.runtimes": [
+    {
+    "name": "JavaSE-24",
+    "path": "C:\\Program Files\\Java\\jdk-24" // Your Path to the JDK
+    },
+      ],
+      "window.menuBarVisibility": "compact",
+      "workbench.activityBar.location": "bottom",
 }
