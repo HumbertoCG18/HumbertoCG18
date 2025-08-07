@@ -15,43 +15,48 @@
   !! miguelsolorio.fluent-icons;
   !! miguelsolorio.symbols;
   !! JetBrains Mono Font
-  !! Custom CSS and JS Loader
-  !! Fix VSCode Checksums Next
+  !! APC-Customized UI++
   !! Toogle Exclude
 
 
-  .NET Install Tool
-  Better Comments
-  Code Runner
-  Debugger for Java
-  Excel Viewer
-  Flow Language Support
-  gitignore
-  GitLens — Git supercharged
-  IntelliCode
-  IntelliCode API Usage Examples
-  Maven for Java
-  MIPS Assembly Formatter
-  Portuguese (Brazil) Language Pack for Visual Studio Code
-  Prettier - Code formatter
-  Project Manager for Java
-  Pylance
-  Python Debugger
-  Python Environments
-  Spring Boot Dashboard
-  Spring Boot Tools
-  Spring Initializr Java Support
-  WSL
-
-  !!Lenguages Supports:
-  ES7+ React/Redux/React-Native snippets
-  Arm Assembly
-  Java
-  Language Support for Java(TM) by Red Hat
-  MIPS Support
-  Python
-
+  ms-dotnettools.vscode-dotnet-runtime;
+  ms-vscode.cpptools;
+  vscjava.vscode-java-debug;
+  vscjava.vscode-java-pack;
+  VisualStudioExptTeam.vscodeintellicode;
+  VisualStudioExptTeam.intellicode-api-usage-examples;
+  redhat.java;
+  rjyoung.vscode-modern-vhdl-support;
+  MS-CEINTL.vscode-language-pack-pt-BR;
+  ms-python.vscode-pylance;
+  ms-python.python;
+  ms-python.debugpy;
+  vscjava.vscode-java-test
+  puorc.awesome-vhdl;
+  formulahendry.code-runner;
+  dan-c-underwood.arm;
+  icrawl.discord-vscode;
+  dsznajder.es7-react-js-snippets;
+  flowtype.flow-for-vscode;
+  esbenp.prettier-vscode;
+  vscjava.vscode-java-dependency
   */
+
+  //Terminal Configs
+    "terminal.integrated.profiles.windows": {
+        "PowerShell": {
+            "source": "PowerShell",
+            "icon": "terminal-powershell"
+        },
+        "Command Prompt": {
+            "path": "C:\\WINDOWS\\System32\\cmd.exe"
+        },
+        "wt": {
+            "path": "C:\\Users\\humbe\\AppData\\Local\\Microsoft\\WindowsApps\\wt.exe"
+        },
+    },
+    "terminal.external.windowsExec": "wt",
+    "terminal.integrated.fontFamily": "JetBrainsMono NF",
 
   
   //Editor configs
@@ -59,7 +64,6 @@
       "security.workspace.trust.banner": "never",
       "breadcrumbs.enabled": false,
       "editor.fontFamily": "JetBrainsMono NF",
-      "terminal.integrated.fontFamily": "JetBrainsMono NF",
       "editor.inlayHints.fontFamily":"JetBrainsMono NF",
       "markdown.preview.fontFamily":"JetBrainsMono NF",
       "chat.editor.fontFamily": "JetBrainsMono NF",
@@ -107,6 +111,7 @@
       "workbench.editor.empty.hint": "hidden",
       "workbench.startupEditor": "none",
       "workbench.editor.showTabs": "multiple",
+      "workbench.activityBar.location": "bottom",
       "workbench.editorAssociations": {
         "*.csv": "gc-excelviewer-csv-editor"
       },
@@ -114,6 +119,7 @@
       "window.titleBarStyle": "custom",
       "window.titleSeparator": " — ",
       "window.commandCenter": false,
+      "window.menuBarVisibility": "compact",
   
   //Zen Mode configs
       "zenMode.centerLayout": false,
@@ -170,27 +176,42 @@
         "**/Presets": true,
         "**/TextMesh Pro": true,
         "**/.plastic": true,
+        "**/.mvn": true,
         "**/Prefabs": true,
         "**/Settings": true,
-        "**/**.mf": true,
-        "**/**.puml": true,
-        "**/bin": true,
-        "**/**.exe": true,
-        "**/.mvn": true
+        "**/**.meta": true,
+        "**/**.vsconfig": true,
+        "**/**.prefab": true,
+        "**/**.mat": true,
+        "**/**.FBX": true,
+        "**/**.unity": true,
+        "**/**.anim": true,
+        "**/**.controller": true,
+        "**/**.asmdef": true,
+        "**/UserSettings": true,
+        "**/ProjectSettings": true,
+        "**/**.gitmodules": true,
+        ".devcontainer": true,
+        "*.class": true,
+        "**/target": true,
+        "**/mvnw": true,
+        "**/mvnw.cmd": true,
+        "**/test": true
       },
       "files.associations": {
-          ".sequelizerc": "javascript",
-          ".stylelintrc": "json",
-          "*.tsx": "typescriptreact",
-          ".env.*": "dotenv",
-          ".flaskenv": "dotenv",
-          ".prettierrc": "json",
-          "*.asta": "database"
-    },
+        ".sequelizerc": "javascript",
+        ".stylelintrc": "json",
+        "*.tsx": "typescriptreact",
+        ".env.*": "dotenv",
+        ".flaskenv": "dotenv",
+        ".prettierrc": "json",
+        "*.asta": "database",
+        "*.java": "java"
+      },
 
   //Custom CSS
     "vscode_custom_css.imports": [
-      "file:///C:/Github/HumbertoCG18/VS_Code/custom-vscode.css"
+     "file:///C:/Github/HumbertoCG18/VS_Code/custom-vscode.css"
     ],
     
   //Symbols-Settings
@@ -217,8 +238,10 @@
         "C++": "folder-sky-code",
         "CPP": "folder-sky-code",
         "Python": "folder-yellow-code",
+        "Java":"folder-red-code",
         "OG_Java": "folder-red-code",
         "C": "folder-blue-code",
+        "gnu":"folder-config",
         "work": "folder-core",
         "Material De Apoio": "folder-helpers",
         "Exemplos": "folder-helpers",
@@ -311,84 +334,23 @@
       "java.errors.incompleteClasspath.severity": "ignore",
       "java.server.launchMode": "Standard",
       "java.configuration.updateBuildConfiguration": "automatic",
-
-
-  //Code Runner Settings
-      "code-runner.clearPreviousOutput": true,
-      "code-runner.ignoreSelection": true,
-      "code-runner.saveAllFilesBeforeRun": true,
-      "code-runner.fileDirectoryAsCwd": false,
-      "code-runner.executorMap": {
-        "javascript": "node",
-        "java": "cd $dir && javac *.java && java $fileName",
-        "c": "cd $dir && gcc $fileName -o $fileNameWithoutExt && $dir$fileNameWithoutExt",
-        "zig": "zig run",
-        "cpp": "cd $dir && g++ $fileName -o $fileNameWithoutExt && $dir$fileNameWithoutExt",
-        "objective-c": "cd $dir && gcc -framework Cocoa $fileName -o $fileNameWithoutExt && $dir$fileNameWithoutExt",
-        "php": "php",
-        "python": "python -u",
-        "perl": "perl",
-        "perl6": "perl6",
-        "ruby": "ruby",
-        "go": "go run",
-        "lua": "lua",
-        "groovy": "groovy",
-        "powershell": "powershell -ExecutionPolicy ByPass -File",
-        "bat": "cmd /c",
-        "shellscript": "bash",
-        "fsharp": "fsi",
-        "csharp": "scriptcs",
-        "vbscript": "cscript //Nologo",
-        "typescript": "ts-node",
-        "coffeescript": "coffee",
-        "scala": "scala",
-        "swift": "swift",
-        "julia": "julia",
-        "crystal": "crystal",
-        "ocaml": "ocaml",
-        "r": "Rscript",
-        "applescript": "osascript",
-        "clojure": "lein exec",
-        "haxe": "haxe --cwd $dirWithoutTrailingSlash --run $fileNameWithoutExt",
-        "rust": "cd $dir && rustc $fileName && $dir$fileNameWithoutExt",
-        "racket": "racket",
-        "scheme": "csi -script",
-        "ahk": "autohotkey",
-        "autoit": "autoit3",
-        "dart": "dart",
-        "pascal": "cd $dir && fpc $fileName && $dir$fileNameWithoutExt",
-        "d": "cd $dir && dmd $fileName && $dir$fileNameWithoutExt",
-        "haskell": "runghc",
-        "nim": "nim compile --verbosity:0 --hints:off --run",
-        "lisp": "sbcl --script",
-        "kit": "kitc --run",
-        "v": "v run",
-        "sass": "sass --style expanded",
-        "scss": "scss --style expanded",
-        "less": "cd $dir && lessc $fileName $fileNameWithoutExt.css",
-        "FortranFreeForm": "cd $dir && gfortran $fileName -o $fileNameWithoutExt && $dir$fileNameWithoutExt",
-        "fortran-modern": "cd $dir && gfortran $fileName -o $fileNameWithoutExt && $dir$fileNameWithoutExt",
-        "fortran_fixed-form": "cd $dir && gfortran $fileName -o $fileNameWithoutExt && $dir$fileNameWithoutExt",
-        "fortran": "cd $dir && gfortran $fileName -o $fileNameWithoutExt && $dir$fileNameWithoutExt",
-        "sml": "cd $dir && sml $fileName",
-        "mojo": "mojo run",
-        "erlang": "escript",
-        "spwn": "spwn build",
-        "pkl": "cd $dir && pkl eval -f yaml $fileName -o $fileNameWithoutExt.yaml",
-        "gleam": "gleam run -m $fileNameWithoutExt"
+      "java.help.firstView": "gettingStarted",
+      "java.debug.settings.hotCodeReplace": "auto",
+      "files.encoding": "utf8",
+      "java.project.encoding": "setDefault",
+      "chat.commandCenter.enabled": false,
+      "sqldeveloper.sqlHistory.historyLimit": 500,
+      "sqldeveloper.telemetry.enabled": true,
+      "redhat.telemetry.enabled": false,
+      "[javascript]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
       },
-      "redhat.telemetry.enabled": true,
-      "terminal.integrated.defaultProfile.windows": "PowerShell",
+      "[javascriptreact]": {
+        "editor.defaultFormatter": "vscode.typescript-language-features"
+      },
       "security.allowedUNCHosts": [
         "wsl.localhost"
       ],
-      
-      "java.configuration.runtimes": [
-    {
-    "name": "JavaSE-24",
-    "path": "C:\\Program Files\\Java\\jdk-24" // Your Path to the JDK
-    },
-      ],
-      "window.menuBarVisibility": "compact",
-      "workbench.activityBar.location": "bottom",
+      "github.copilot.nextEditSuggestions.enabled": true,
+      "chat.agentSessionsViewLocation": "showChatsMenu"
 }
