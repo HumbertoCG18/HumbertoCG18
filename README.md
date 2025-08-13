@@ -4,7 +4,7 @@
 </div>
 
 <h1 align="center">      I'm Humberto Corrêa Gomes</h1> 
-<h3 align="center">Independent Game DEV/Programmer, FULL Stack and Mobile Programmer.</h3>
+<h3 align="center">Full Stack Developer.</h3>
 
 
 - 🔭 I’m currently working on ["The war of knowledge"](https://humbertocg.notion.site/Ideias-Roteiro-d97182ceaa594bcb849f2a570c6d4896).
