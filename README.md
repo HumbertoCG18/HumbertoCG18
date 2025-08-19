@@ -39,7 +39,7 @@
 <a href ="https://unity.com/pt">![Unity](https://img.shields.io/badge/unity-%23000000.svg?style=for-the-badge&logo=unity&logoColor=white)</a>
 <a href ="https://learn.microsoft.com/en-us/dotnet/csharp/">![C#](https://img.shields.io/badge/c%23-%23239120.svg?style=for-the-badge&logo=csharp&logoColor=white)</a>
 <a href ="https://learn.microsoft.com/en-us/cpp/c-language/?view=msvc-170">![C](https://img.shields.io/badge/c-%2300599C.svg?style=for-the-badge&logo=c&logoColor=white)</a>
-<a href ="https://learn.microsoft.com/en-us/cpp/cpp/?view=msvc-170">![C++](https://img.shields.io/badge/C++-%2300599C.svg?logo=c%2B%2B&logoColor=white)</a>
+<a href ="https://learn.microsoft.com/en-us/cpp/cpp/?view=msvc-170">![C++](https://img.shields.io/badge/C++-%2300599C.svg?style=for-the-badge&logo=c%2B%2B&logoColor=white)</a>
 <a href ="https://go.dev/doc">![GO](https://img.shields.io/badge/Go-%2300ADD8.svg?&logo=go&logoColor=white)</a>
 <a href ="https://docs.oracle.com/en/java/">![Java](https://img.shields.io/badge/java-%23ED8B00.svg?style=for-the-badge&logo=openjdk&logoColor=white)</a>
 <a href ="https://devdocs.io/javascript/">![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)</a>
