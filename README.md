@@ -7,8 +7,6 @@
 <h3 align="center">Full Stack Developer.</h3>
 
 
-- 🔭 I’m currently working on ["The war of knowledge"](https://humbertocg.notion.site/Ideias-Roteiro-d97182ceaa594bcb849f2a570c6d4896).
-
 - 🌱 I’m currently learning **C, C# and Unity.**
 
 - 📚 Computer science student at [PUCRS](https://www.pucrs.br/estudenapucrs/cursos/ciencia-da-computacao/) (2023-2027).
