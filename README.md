@@ -2,7 +2,9 @@
 <h3 align="center">Junior Full Stack Developer.</h3>
 
 
-- 🌱 I’m currently learning **C, C# and Unity.**
+- 🌱 I’m currently learning **C, C# , Unity and Python.**
+
+- ⚡Currently developing [LLM Tutor](https://github.com/HumbertoCG18/GPT-Tutor-Generator) 
 
 - 📚 Computer science student at [PUCRS](https://www.pucrs.br/estudenapucrs/cursos/ciencia-da-computacao/) (2023-2027).
 
